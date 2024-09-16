@@ -7,6 +7,15 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Resumé
-    url: about/
+  - name: About
+    url: about/about.md
     weight: 20
+  - name: Experience
+    url: about/experience.md
+    weight: 30
+  - name: Field
+    url: about/accomplishments.md
+    weight: 30
+  - name: Contact
+    url: about/contact.md
+    weight: 50
