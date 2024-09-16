@@ -14,8 +14,8 @@ main:
     url: about/experience.md
     weight: 30
   - name: Field
-    url: about/accomplishments.md
-    weight: 30
+    url: about/field.md
+    weight: 40
   - name: Contact
     url: about/contact.md
     weight: 50

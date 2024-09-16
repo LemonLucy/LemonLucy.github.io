@@ -14,7 +14,7 @@ subtitle:
 
 # Date format for experience
 #   Refer to https://docs.hugoblox.com/customization/#date-format
-date_format: Jan 2006
+date_format: Sep 2024
 
 # Experiences.
 #   Add/remove as many `experience` items below as you like.
@@ -22,12 +22,12 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
+  - title: LGaimers
     company: GenCoin
     company_url: ''
     company_logo: org-gc
     location: California
-    date_start: '2021-01-01'
+    date_start: '2023-07-01'
     date_end: ''
     description: |2-
         Responsibilities include:
