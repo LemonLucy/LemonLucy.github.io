@@ -8,14 +8,14 @@ main:
     url: /
     weight: 10
   - name: About
-    url: about/about.md
+    url: about/about/
     weight: 20
   - name: Experience
-    url: about/experience.md
+    url: about/experience/
     weight: 30
   - name: Field
-    url: about/field.md
+    url: about/field/
     weight: 40
   - name: Contact
-    url: about/contact.md
+    url: about/contact/
     weight: 50
