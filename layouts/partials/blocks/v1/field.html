@@ -1,0 +1,32 @@
+<div class="field-section">
+    <h2>{{ .Title }}</h2>
+    {{ if .Params.subtitle }}
+      <h3>{{ .Params.subtitle }}</h3>
+    {{ end }}
+  
+    <div class="field-list">
+      {{ range .Params.item }}
+        <div class="field-item">
+          <h3>{{ .title }}</h3>
+          <p><strong>Organization:</strong> 
+            {{ if .organization_url }}
+              <a href="{{ .organization_url }}" target="_blank">{{ .organization }}</a>
+            {{ else }}
+              {{ .organization }}
+            {{ end }}
+          </p>
+          <p><strong>Date:</strong> {{ .date_start }} 
+            {{ if .date_end }} to {{ .date_end }}{{ else }} to Present{{ end }}
+          </p>
+          {{ if .description }}
+            <p>{{ .description }}</p>
+          {{ end }}
+          {{ if .certificate_url }}
+            <p><a href="{{ .certificate_url }}" target="_blank">View Certificate</a></p>
+          {{ end }}
+        </div>
+        <hr>
+      {{ end }}
+    </div>
+  </div>
+  

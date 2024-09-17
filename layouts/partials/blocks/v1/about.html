@@ -1,0 +1,30 @@
+<div class="about-section">
+    <h2>{{ .Title }}</h2>
+    
+    {{ with .Site.GetPage "authors" (print "authors/" .Params.author) }}
+      <div class="profile">
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.bio }}</p>
+  
+        {{ if .Params.role }}
+          <p><strong>Role:</strong> {{ .Params.role }}</p>
+        {{ end }}
+  
+        {{ if .Params.social }}
+          <div class="social-links">
+            <h4>Connect with me:</h4>
+            <ul>
+              {{ range .Params.social }}
+                <li>
+                  <a href="{{ .link }}" target="_blank">
+                    <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+  
