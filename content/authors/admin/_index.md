@@ -6,7 +6,7 @@ title: Eungyo Kim
 superuser: true
 
 # Role/position
-role: ''
+role: 'Student'
 
 # Status emoji
 status:
