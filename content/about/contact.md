@@ -1,7 +1,7 @@
 ---
 # An instance of the Contact widget.
 # Documentation: https://docs.hugoblox.com/getting-started/page-builder/
-widget: about
+widget: contact
 
 # This file represents a page section.
 headless: true
