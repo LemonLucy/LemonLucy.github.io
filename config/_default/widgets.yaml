@@ -1,0 +1,17 @@
+widgets:
+  - name: field
+    path: /about/field/
+    title: 'Field'
+    weight: 40
+  - name: experience
+    path: /about/experience/
+    title: 'Experience'
+    weight: 30
+  - name: about
+    path: /about/about/
+    title: 'About'
+    weight: 20
+  - name: contact
+    path: /about/contact/
+    title: 'Contact'
+    weight: 50
