@@ -32,8 +32,8 @@ content:
       tag: ML
     - name: Operating System
       tag: OS
-    - name: NLP
-      tag: NLP
+    - name: Linux
+      tag: Linux
 
 design:
   columns: '1'
