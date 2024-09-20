@@ -1,8 +1,8 @@
 ---
-title: Cartoon Face Generator
+title: Multi Programming Batch System Simulator
 summary: Write about your project here...
 tags:
-  - CV
+  - OS
 date: 2022-01-01
 external_link: http://github.com
 ---
