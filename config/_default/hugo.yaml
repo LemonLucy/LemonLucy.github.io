@@ -35,11 +35,16 @@ languages:
     languageName: English
     title: Project Documentation
     weight: 1
+    params:
+      subtitle: Reference, Tutorials, and Explanations
   de:
     baseURL: https://de.example.org/
     languageName: Deutsch
     title: Projekt Dokumentation
     weight: 2
+    params:
+      subtitle: Referenz, Tutorials und Erklärungen
+
 
 ############################
 ## ADVANCED
