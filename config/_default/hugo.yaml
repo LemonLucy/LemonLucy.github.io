@@ -26,8 +26,20 @@ cascade:
 
 defaultContentLanguage: en
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 removePathAccents: true
+
+languages:
+  en:
+    baseURL: https://en.example.org/
+    languageName: English
+    title: Project Documentation
+    weight: 1
+  de:
+    baseURL: https://de.example.org/
+    languageName: Deutsch
+    title: Projekt Dokumentation
+    weight: 2
 
 ############################
 ## ADVANCED
