@@ -105,3 +105,11 @@ extensions:
     local_backend: false
   academicons:
     enable: false
+
+languages:
+  en:
+    params:
+      subtitle: Reference, Tutorials, and Explanations
+  de:
+    params:
+      subtitle: Referenz, Tutorials und Erklärungen
