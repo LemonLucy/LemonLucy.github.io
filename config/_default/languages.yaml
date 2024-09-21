@@ -1,4 +1,4 @@
-defaultContentLanguage: en
+defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: true
 languages:
   en:
