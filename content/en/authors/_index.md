@@ -1,9 +1,7 @@
 ---
-# To publish author profile pages, remove all of the `_build` and `cascade` settings below.
-_build:
-  render: never
-cascade:
-  _build:
-    render: never
-    list: always
+title: "Authors"
 ---
+
+## Meet Our Authors
+
+Welcome to the authors' section. Here you can find information about our authors, including Eungyo Kim.
