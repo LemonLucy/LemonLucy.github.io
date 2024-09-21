@@ -1,14 +1,23 @@
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 languages:
   en:
-    contentDir: "content/en"
-    languageCode: "en-US"
-    languageName: "English"
-    title: "Project Documentation"
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+      subtitle: Reference, Tutorials, and Explanations
+    title: Project Documentation
     weight: 1
   de:
-    contentDir: "content/de"
-    languageCode: "de-DE"
-    languageName: "Deutsch"
-    title: "Projekt Dokumentation"
+    contentDir: content/de
+    disabled: false
+    languageCode: de-DE
+    languageDirection: ltr
+    languageName: Deutsch
+    params:
+      subtitle: Referenz, Tutorials und Erklärungen
+    title: Projekt Dokumentation
     weight: 2
