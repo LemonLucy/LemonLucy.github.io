@@ -7,6 +7,7 @@ widgets:
     active: true
     title: About Me
     weight: 10
+    author: admin
 
   - widget: contact
     active: true
