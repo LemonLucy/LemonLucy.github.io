@@ -1,5 +1,5 @@
 ---
-title: Recommendation Systems
+title: Pacman Game
 summary: Write about your project here...
 tags:
   - ML
