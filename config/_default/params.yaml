@@ -117,13 +117,13 @@ languages:
       subtitle: Reference, Tutorials, and Explanations
     title: Project Documentation
     weight: 1
-  de:
-    contentDir: content/de
+ko:
+    contentDir: content/ko
     disabled: false
-    languageCode: de-DE
+    languageCode: ko-KR
     languageDirection: ltr
-    languageName: Deutsch
+    languageName: Korean
     params:
-      subtitle: Referenz, Tutorials und Erklärungen
-    title: Projekt Dokumentation
+      subtitle: 참조, 튜토리얼 및 설명
+    title: 프로젝트 문서
     weight: 2

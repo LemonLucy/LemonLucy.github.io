@@ -1,25 +1,25 @@
 ---
 type: widget_page
 
-# Widget configuration for about page
+# 정보 페이지에 대한 위젯 구성
 widgets:
   - widget: about
     active: true
-    title: Über Mich
+    title: 소개
     weight: 10
 
   - widget: contact
     active: true
-    title: Kontaktieren Sie mich
+    title: 문의하기
     weight: 20
 
   - widget: experience
     active: true
-    title: Meine Erfahrungen
+    title: 경력
     weight: 30
 
   - widget: field
     active: true
-    title: Erfolge
+    title: 성취 사항
     weight: 40
 ---

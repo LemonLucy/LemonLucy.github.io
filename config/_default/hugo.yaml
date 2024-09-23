@@ -31,14 +31,14 @@ removePathAccents: true
 
 languages:
   en:
-    baseURL: https://en.example.org/
+    baseURL: https://lemonlucy.github.io/
     languageName: English
     title: Project Documentation
     weight: 1
     params:
       subtitle: Reference, Tutorials, and Explanations
   de:
-    baseURL: https://de.example.org/
+    baseURL: https://lemonlucy.github.io/de/
     languageName: Deutsch
     title: Projekt Dokumentation
     weight: 2
