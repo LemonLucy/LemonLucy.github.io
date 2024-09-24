@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: home/index
+    url: home/index/
     weight: 10
   - name: About
     url: about/about/
@@ -22,18 +22,18 @@ main:
 
 ko:
   main:
-    - name: Home
-      url: /ko/home/index
+    - name: 홈
+      url: /ko/home/index/
       weight: 10
-    - name: About
+    - name: 소개
       url: /ko/about/about/
       weight: 20
-    - name: Experience
+    - name: 경력
       url: /ko/about/experience/
       weight: 30
-    - name: Field
+    - name: 분야
       url: /ko/about/field/
       weight: 40
-    - name: Contact
+    - name: 문의
       url: /ko/about/contact/
       weight: 50
