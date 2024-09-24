@@ -117,7 +117,7 @@ languages:
       subtitle: Reference, Tutorials, and Explanations
     title: Project Documentation
     weight: 1
-ko:
+  ko:
     contentDir: content/ko
     disabled: false
     languageCode: ko-KR

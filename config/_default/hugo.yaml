@@ -37,13 +37,13 @@ languages:
     weight: 1
     params:
       subtitle: Reference, Tutorials, and Explanations
-  de:
-    baseURL: https://lemonlucy.github.io/de/
-    languageName: Deutsch
-    title: Projekt Dokumentation
+  ko:
+    baseURL: https://lemonlucy.github.io/ko/
+    languageName: Korean
+    title: 프로젝트
     weight: 2
     params:
-      subtitle: Referenz, Tutorials und Erklärungen
+      subtitle: 참조, 튜토리얼, 설명
 
 
 ############################
