@@ -37,6 +37,24 @@ languages:
     weight: 1
     params:
       subtitle: Reference, Tutorials, and Explanations
+    menus:
+      main:
+        - name: Home
+          url: /home/index/
+          weight: 10
+        - name: About
+          url: /about/about/
+          weight: 20
+        - name: Experience
+          url: /about/experience/
+          weight: 30
+        - name: Field
+          url: /about/field/
+          weight: 40
+        - name: Contact
+          url: /about/contact/
+          weight: 50
+
   ko:
     baseURL: https://lemonlucy.github.io/ko/
     languageName: Korean
@@ -44,46 +62,23 @@ languages:
     weight: 2
     params:
       subtitle: 참조, 튜토리얼, 설명
-
-############################
-## MENUS
-############################
-
-menus:
-  main:
-    - name: Home
-      url: /home/index/
-      weight: 10
-    - name: About
-      url: /about/about/
-      weight: 20
-    - name: Experience
-      url: /about/experience/
-      weight: 30
-    - name: Field
-      url: /about/field/
-      weight: 40
-    - name: Contact
-      url: /about/contact/
-      weight: 50
-
-  ko:
-    main:
-      - name: 홈
-        url: /ko/home/index/
-        weight: 10
-      - name: 소개
-        url: /ko/about/about/
-        weight: 20
-      - name: 경력
-        url: /ko/about/experience/
-        weight: 30
-      - name: 분야
-        url: /ko/about/field/
-        weight: 40
-      - name: 문의
-        url: /ko/about/contact/
-        weight: 50
+    menus:
+      main:
+        - name: 홈
+          url: /ko/home/index/
+          weight: 10
+        - name: 소개
+          url: /ko/about/about/
+          weight: 20
+        - name: 경력
+          url: /ko/about/experience/
+          weight: 30
+        - name: 분야
+          url: /ko/about/field/
+          weight: 40
+        - name: 문의
+          url: /ko/about/contact/
+          weight: 50
 
 ############################
 ## ADVANCED
