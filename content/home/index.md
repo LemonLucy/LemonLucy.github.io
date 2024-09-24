@@ -1,6 +1,9 @@
 ---
 title: Welcome
 widgets:
+  - widget: home
+    title: Home
+    weight: 10
   - widget: about
     title: About Me
     weight: 20
@@ -13,7 +16,7 @@ widgets:
   - widget: field
     title: Field
     weight: 50
-
 ---
+
 
 # Welcome to the homepage!
