@@ -22,18 +22,18 @@ main:
 
 ko:
   main:
-    - name: 홈
+    - name: Home
       url: /ko/home/index
       weight: 10
-    - name: 소개
+    - name: About
       url: /ko/about/about/
       weight: 20
-    - name: 경력
+    - name: Experience
       url: /ko/about/experience/
       weight: 30
-    - name: 분야
+    - name: Field
       url: /ko/about/field/
       weight: 40
-    - name: 문의
+    - name: Contact
       url: /ko/about/contact/
       weight: 50
