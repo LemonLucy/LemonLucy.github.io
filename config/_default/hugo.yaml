@@ -43,16 +43,16 @@ languages:
           url: /
           weight: 10
         - name: About
-          url: /about/index/
+          url: /about/
           weight: 20
         - name: Experience
-          url: /experience/index/
+          url: /experience/
           weight: 30
         - name: Field
-          url: /field/index/
+          url: /field/
           weight: 40
         - name: Contact
-          url: /contact/index/
+          url: /contact/
           weight: 50
 
   ko:
