@@ -1,6 +1,6 @@
 widgets:
   - name: home
-    path: /home/
+    path: /home/index/
     title: 'Home'
     weight: 10
   - name: about
