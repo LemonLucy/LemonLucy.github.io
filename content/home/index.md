@@ -1,18 +1,21 @@
 ---
 title: Welcome
 widgets:
+  - widget: home
+    title: Home
+    weight: 10
   - widget: about
     title: About Me
-    weight: 10
+    weight: 20
   - widget: contact
     title: Contact
-    weight: 20
+    weight: 30
   - widget: experience
     title: Experience
-    weight: 30
+    weight: 40
   - widget: field
     title: Field
-    weight: 40
+    weight: 50
 
 ---
 
