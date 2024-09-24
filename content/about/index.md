@@ -3,24 +3,20 @@ type: widget_page
 
 # Widget configuration for about page
 widgets:
-  - widget: about
-    active: true
-    title: About Me
+widgets:
+  - widget: home
+    title: Home
     weight: 10
-    author: admin
-
-  - widget: contact
-    active: true
-    title: Get in Touch
+  - widget: about
+    title: About Me
     weight: 20
-
-  - widget: experience
-    active: true
-    title: My Experience
+  - widget: contact
+    title: Contact
     weight: 30
-
-  - widget: field
-    active: true
-    title: Accomplishments
+  - widget: experience
+    title: Experience
     weight: 40
+  - widget: field
+    title: Field
+    weight: 50
 ---
