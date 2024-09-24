@@ -40,19 +40,19 @@ languages:
     menus:
       main:
         - name: Home
-          url: /home/index/
+          url: /
           weight: 10
         - name: About
-          url: /about/about/
+          url: /about/
           weight: 20
         - name: Experience
-          url: /about/experience/
+          url: /experience/
           weight: 30
         - name: Field
-          url: /about/field/
+          url: /field/
           weight: 40
         - name: Contact
-          url: /about/contact/
+          url: /contact/
           weight: 50
 
   ko:
