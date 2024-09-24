@@ -1,21 +1,21 @@
 widgets:
   - name: home
-    path: /home/index/
+    path: /
     title: 'Home'
     weight: 10
   - name: about
-    path: /about/about/
+    path: /about/
     title: 'About'
     weight: 20
   - name: experience
-    path: /about/experience/
+    path: /experience/
     title: 'Experience'
     weight: 30
   - name: field
-    path: /about/field/
+    path: /field/
     title: 'Field'
     weight: 40
   - name: contact
-    path: /about/contact/
+    path: /contact/
     title: 'Contact'
     weight: 50
