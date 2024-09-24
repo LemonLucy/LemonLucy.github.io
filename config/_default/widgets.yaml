@@ -19,3 +19,24 @@ widgets:
     path: /about/contact/
     title: 'Contact'
     weight: 50
+
+  - name: home
+    path: /ko/home/index/
+    title: 'Home'
+    weight: 10
+  - name: about
+    path: /ko/about/about/
+    title: 'About'
+    weight: 20
+  - name: experience
+    path: /ko/about/experience/
+    title: 'Experience'
+    weight: 30
+  - name: field
+    path: /ko/about/field/
+    title: 'Field'
+    weight: 40
+  - name: contact
+    path: /ko/about/contact/
+    title: 'Contact'
+    weight: 50
