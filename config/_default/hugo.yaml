@@ -68,16 +68,16 @@ languages:
           url: /
           weight: 10
         - name: 소개
-          url: /about/about/
+          url: /about/
           weight: 20
         - name: 경력
-          url: /about/experience/
+          url: /experience/
           weight: 30
         - name: 분야
-          url: /about/field/
+          url: /field/
           weight: 40
         - name: 문의
-          url: /about/contact/
+          url: /contact/
           weight: 50
 
 ############################
