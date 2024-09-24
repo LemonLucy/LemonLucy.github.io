@@ -108,7 +108,6 @@ extensions:
 
 languages:
   en:
-    contentDir: content/en
     disabled: false
     languageCode: en-US
     languageDirection: ltr
