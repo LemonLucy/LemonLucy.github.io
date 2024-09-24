@@ -65,19 +65,19 @@ languages:
     menus:
       main:
         - name: 홈
-          url: /ko/home/index/
+          url: /home/index/
           weight: 10
         - name: 소개
-          url: /ko/about/about/
+          url: /about/about/
           weight: 20
         - name: 경력
-          url: /ko/about/experience/
+          url: /about/experience/
           weight: 30
         - name: 분야
-          url: /ko/about/field/
+          url: /about/field/
           weight: 40
         - name: 문의
-          url: /ko/about/contact/
+          url: /about/contact/
           weight: 50
 
 ############################
