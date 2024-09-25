@@ -1,0 +1,16 @@
+widgets:
+  - name: Home
+    path: /
+    weight: 10
+  - name: About
+    path: about/
+-    weight: 20
+  - name: Experience
+    path: experience/
+    weight: 30
+  - name: Field
+    path: field/
+    weight: 40
+  - name: Contact
+    path: contact/
+    weight: 50
