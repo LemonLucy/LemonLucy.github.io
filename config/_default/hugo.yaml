@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Hugo Portfolio Theme # Website name
-baseURL: 'https://lemonlucy.github.io/' # Website URL
+baseURL: 'https://lemonlucy.github.io' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -28,57 +28,6 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
-
-languages:
-  en:
-    baseURL: https://lemonlucy.github.io/
-    languageName: English
-    title: Project Documentation
-    weight: 1
-    params:
-      subtitle: Reference, Tutorials, and Explanations
-    menus:
-      main:
-        - name: Home
-          url: /
-          weight: 10
-        - name: About
-          url: /about/
-          weight: 20
-        - name: Experience
-          url: /experience/
-          weight: 30
-        - name: Field
-          url: /field/
-          weight: 40
-        - name: Contact
-          url: /contact/
-          weight: 50
-
-  ko:
-    baseURL: https://lemonlucy.github.io/ko/
-    languageName: Korean
-    title: 프로젝트
-    weight: 2
-    params:
-      subtitle: 참조, 튜토리얼, 설명
-    menus:
-      main:
-        - name: 홈
-          url: /
-          weight: 10
-        - name: 소개
-          url: /about/
-          weight: 20
-        - name: 경력
-          url: /experience/
-          weight: 30
-        - name: 분야
-          url: /field/
-          weight: 40
-        - name: 문의
-          url: /contact/
-          weight: 50
 
 ############################
 ## ADVANCED
