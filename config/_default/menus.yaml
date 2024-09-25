@@ -4,7 +4,7 @@ widgets:
     weight: 10
   - name: About
     path: about/
--    weight: 20
+    weight: 20
   - name: Experience
     path: experience/
     weight: 30
