@@ -8,8 +8,8 @@ widgets:
   - name: Experience
     path: experience/
     weight: 30
-  - name: Accomplishment
-    path: accomplishment/
+  - name: Field
+    path: field/
     weight: 40
   - name: Contact
     path: contact/
