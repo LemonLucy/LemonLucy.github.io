@@ -1,14 +1,14 @@
 widgets:
   - name: Home
-    path: /
+    url: /
     weight: 10
   - name: About
-    path: about/
+    url: about/
     weight: 20
   - name: Experience
-    path: experience/
+    url: experience/
     weight: 30
 
   - name: Contact
-    path: contact/
+    url: contact/
     weight: 50
