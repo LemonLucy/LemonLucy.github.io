@@ -1,7 +1,7 @@
 ---
 # An instance of the About widget.
 # Documentation: https://docs.hugoblox.com/page-builder/
-widget: experience
+widget: home
 
 # Activate this widget? true/false
 active: true
@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: Experience
+title: Home
 
 # Choose the user profile to display
 # This should be the username (folder name) of a profile in your `content/authors/` folder.
