@@ -1,4 +1,4 @@
-widgets:
+main:
   - name: Home
     url: /
     weight: 10
@@ -11,4 +11,4 @@ widgets:
 
   - name: Contact
     url: contact/
-    weight: 50
+    weight: 40
