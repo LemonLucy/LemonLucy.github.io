@@ -1,71 +1,64 @@
----
-# 표시 이름
-title: 김은교
+--- 
+# Display name
+title: Eungyo Kim
 
-# 이 사용자가 사이트의 주 사용자입니까?
+# Is this user the main user of the site?
 superuser: true
 
-# 역할/직위
-role: '학생'
+# Role/Position
+role: 'Student'
 
-# 상태 이모지
+# Status Emoji
 status:
   icon: ☕️
 
-# 소속
-#organizations:
-#- name: 腾讯
-#  url: ""
+# Organization
+# organizations:
+# - name: Tencent
+#   url: ""
 
-# 간략한 소개 (게시물 끝에 사용자 프로필로 표시됨)
-bio: 제 연구 관심사는 분산 로봇공학, 모바일 컴퓨팅, 그리고 프로그래밍 가능한 물질입니다.
+# Brief Introduction (Displayed in user profile at the end of posts)
+bio: My research interests include distributed robotics, mobile computing, and programmable matter.
 
 interests:
-- 인공지능
-- 컴퓨터 언어학
-- 정보 검색
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
 
-# 학력
-#education:
-#  courses:
-#  - course: 인공지능 박사
-#    institution: 스탠퍼드 대학교
-#    year: 2012
-#  - course: 인공지능 석사
-#    institution: 매사추세츠 공과대학교
-#    year: 2009
-#  - course: 인공지능 학사
-#    institution: 매사추세츠 공과대학교
-#    year: 2008
+# Education
+# education:
+#   courses:
+#   - course: Ph.D. in Artificial Intelligence
+#     institution: Stanford University
+#     year: 2012
+#   - course: M.S. in Artificial Intelligence
+#     institution: Massachusetts Institute of Technology
+#     year: 2009
+#   - course: B.S. in Artificial Intelligence
+#     institution: Massachusetts Institute of Technology
+#     year: 2008
 
-# 소셜/학술 네트워킹
-# 사용 가능한 아이콘: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   이메일 링크는 "fas" 아이콘 팩, "envelope" 아이콘, "mailto:your-email@example.com" 형식의 링크를 사용하세요.
+# Social/Academic Networking
+# Available icons: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For email links, use "fas" icon pack, "envelope" icon, and format "mailto:your-email@example.com".
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # 직접 이메일 링크는 "mailto:test@example.org" 사용.
+    link: 'about/#contact' # For direct email link use "mailto:test@example.org".
   - icon: github
     icon_pack: fab
     link: https://github.com/LemonLucy
   - icon: whatsapp
     icon_pack: fab
     link: wa.link/bas7d3
-# Github 링크 사용하려면 아래를 해제하세요
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
+# Uncomment below for Github link
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/gcushen
 
-# About 위젯에서 이력서/CV PDF 링크.
-# 사용하려면, 이력서/CV를 `static/files/cv.pdf`에 복사하고 아래 줄을 해제하세요.
+# To link a resume/CV PDF in the About widget, copy the resume/CV to `static/files/cv.pdf` and uncomment below.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
 
-# Gravatar를 사용하려면 이메일을 입력하세요 (Config에서 Gravatar 활성화 시)
-#email: ""
----
-
-저는 한국에서 수학 교육과 컴퓨터 공학을 전공하고 있는 대학생입니다. 저는 모바일 앱 개발, 클라우드 컴퓨팅, 그리고 머신 러닝에 관심이 있습니다. 현재 스마트 팜에서 사용되는 로봇 원격 제어 프로젝트를 진행 중이며, 현재 리액트 네이티브를 배우고 있습니다.
-
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}이력서 PDF 다운로드{{< /staticref >}}
+# To use Gravatar, enter an email here (from config).
