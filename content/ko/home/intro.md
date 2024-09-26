@@ -6,7 +6,7 @@ widget: about.avatar
 headless: true
 
 # 이 섹션이 페이지에 나타나는 순서입니다.
-weight: 10
+weight: 20
 
 author: admin
 #design:

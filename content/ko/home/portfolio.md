@@ -8,7 +8,7 @@ widget: portfolio
 headless: true
 
 # 이 섹션이 페이지에 나타나는 순서입니다.
-weight: 20
+weight: 30
 
 title: ''
 subtitle: ''
