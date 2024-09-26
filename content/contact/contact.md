@@ -10,6 +10,8 @@ weight: 30
 title: 'Map'
 subtitle: 'Find us here!'
 
+type: landing
+
 content:
   address:
     street: 전북대학교 공과대학 7호관 626호
