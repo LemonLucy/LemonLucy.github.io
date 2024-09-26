@@ -23,10 +23,10 @@ date_format: 2024년 9월
 #   YAML의 `|2-` 다중 행 접두어로 다중 설명을 시작하세요.
 experience:
   - title: LGaimers
-    company: GenCoin
+    company: LG
     company_url: ''
-    company_logo: org-gc
-    location: 캘리포니아
+    company_logo: org-LG
+    location: 한국
     date_start: '2023-07-01'
     date_end: ''
     description: |2-
@@ -34,16 +34,6 @@ experience:
         
         * 분석
         * 모델링
-        * 배포
-
-  - title: 반도체 물리학 교수
-    company: X대학교
-    company_url: ''
-    company_logo: org-x
-    location: 캘리포니아
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: 전자공학을 가르치고 반도체 물리학을 연구했습니다.
 
 design:
   columns: '1'
