@@ -12,7 +12,6 @@ type: landing
 block: slider
 content:
     slides:
-
     - title: "Smart Farm"
         content: "Development of apps related to smart farming"
         align: center
