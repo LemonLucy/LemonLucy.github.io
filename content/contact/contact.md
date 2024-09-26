@@ -1,16 +1,27 @@
 ---
-# An instance of the About widget.
-# Documentation: https://docs.hugoblox.com/page-builder/
-widget: contact
-
-# Activate this widget? true/false
-active: true
+widget: map
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 20
+weight: 30
 
-author: admin
+title: 'Map'
+subtitle: 'Find us here!'
+
+content:
+  address:
+    street: 전북대학교 공과대학 7호관 626호
+    city: 전주시
+    region: 전라북도
+    postcode: '54896'
+    country: 대한민국
+    coordinates:
+      latitude: '35.84601324617979'
+      longitude: '127.13444961966684'
+  autolink: true
+
+design:
+  columns: '1'
 ---
