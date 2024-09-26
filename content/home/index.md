@@ -3,20 +3,21 @@
 title:
 date: 2024-03-25
 type: widget_page
+headless: true
 
 sections:
 
   - block: features
     content:
       title: 
-      text: <br><span style="font-size:125%">MacsLAB에서는 의료, EMR, Vision, 항공, 국방 등 여러 분야에 AI 및 딥러닝을 활용한 연구를 수행하고 있으며, 의료 수학 및 AI 기반 연구도 함께 수행하고 있습니다. 뿐만 아니라, 풀스택 개발 및 AI를 활용한 어플리케이션 개발 등 Development & Deploy하는 실용적인 분야에도 집중하고 있습니다.</span>
+      text: <br><span style="font-size:125%">At MacsLAB, we conduct research utilizing AI and deep learning across various fields including healthcare, EMR, Vision, aerospace, and defense, alongside research in medical mathematics and AI-based studies. Furthermore, we are also focused on practical areas such as full-stack development and application development leveraging AI.</span>
 
   - block: slider
     content:
       slides:
 
-      - title: <span style="font-size:90%">스마트팜</span>
-        content: <span style="font-size:90%">스마트팜 관련 앱 개발</span>
+      - title: <span style="font-size:90%">Smart Farm</span>
+        content: <span style="font-size:90%">Development of apps related to smart farming</span>
         align: center
         background:
           image:
@@ -26,8 +27,8 @@ sections:
           position: center
           color: '#000'
 
-      - title: <span style="font-size:90%">클라우드 컴퓨팅</span>
-        content: <span style="font-size:90%">클라우드 컴퓨팅 aws</span>
+      - title: <span style="font-size:90%">Cloud Computing</span>
+        content: <span style="font-size:90%">Cloud Computing with AWS</span>
         align: center
         background:
           image:
@@ -38,7 +39,7 @@ sections:
           color: '#000'
 
       - title: <span style="font-size:90%">Mathematics</span>
-        content: <span style="font-size:90%">AI와 관련된 수학</span>
+        content: <span style="font-size:90%">Mathematics related to AI</span>
         align: center
         background:
           image:
@@ -49,7 +50,7 @@ sections:
           color: '#000'
 
       - title: <span style="font-size:90%">Development</span>
-        content: <span style="font-size:90%">Full-Stack 어플리케이션 개발</span>
+        content: <span style="font-size:90%">Full-Stack application development</span>
         align: center
         background:
           image:
@@ -58,7 +59,6 @@ sections:
               brightness: 0.4
           position: center
           color: '#000'
-
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
@@ -77,14 +77,7 @@ sections:
   #       filename: welcome.jpg
   #     text: |
   #       <br>
-        
-  #       <span style="font-size:75%">전북대학교 의료 AI 및 계산 수학 연구실 (MACS Lab) 홈페이지에 오신 것을 환영합니다. MACS에서는 의료, 항공, 국방 분야에 AI 및 딥러닝을 활용한 연구를 수행하고 있으며, 의료 수학 및 AI 기반 연구도 함께 수행하고 있습니다. 뿐만 아니라, 풀스택 개발 및 AI를 활용한 어플리케이션 개발 등 Development & Deploy하는 실용적인 분야에도 집중하고 있습니다.</span>
-  
----
-<!-- ---
-# Homepage
-type: widget_page
+  #
+  #       <span style="font-size:75%">Welcome to the homepage of the Medical AI and Computational Science (MACS) Lab at Jeonbuk National University. At MACS, we conduct research utilizing AI and deep learning in healthcare, aerospace, and defense, alongside medical mathematics and AI-based studies. Furthermore, we focus on practical areas such as full-stack development and application development utilizing AI.</span>
 
-# Homepage is headless, other widget pages are not.
-headless: true
---- -->
+---
