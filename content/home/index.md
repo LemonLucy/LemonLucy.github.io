@@ -1,9 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2024-03-25
-type: landing
-
+type: widget_page
 
 sections:
 
@@ -68,16 +66,5 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 3000
-
-  # - block: hero
-  #   content:
-  #     title: |
-  #       <span style="font-size:75%">Medical AI & Computational Science (MACS) Lab</span>
-  #     image:
-  #       filename: welcome.jpg
-  #     text: |
-  #       <br>
-  #
-  #       <span style="font-size:75%">Welcome to the homepage of the Medical AI and Computational Science (MACS) Lab at Jeonbuk National University. At MACS, we conduct research utilizing AI and deep learning in healthcare, aerospace, and defense, alongside medical mathematics and AI-based studies. Furthermore, we focus on practical areas such as full-stack development and application development utilizing AI.</span>
 
 ---
