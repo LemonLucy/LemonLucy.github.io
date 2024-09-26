@@ -25,7 +25,7 @@ experience:
   - title: LGaimers
     company: LG
     company_url: ''
-    company_logo: org-LG
+    company_logo: org-gc
     location: 한국
     date_start: '2023-07-01'
     date_end: ''
