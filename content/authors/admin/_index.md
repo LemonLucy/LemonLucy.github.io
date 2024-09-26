@@ -22,21 +22,20 @@ bio: My research interests include distributed robotics, mobile computing, and p
 
 interests:
 - Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Mobile App Development
+- User Interface
+- Smart farm
+- Cloud Computing
 
-# Education
-# education:
-#   courses:
-#   - course: Ph.D. in Artificial Intelligence
-#     institution: Stanford University
-#     year: 2012
-#   - course: M.S. in Artificial Intelligence
-#     institution: Massachusetts Institute of Technology
-#     year: 2009
-#   - course: B.S. in Artificial Intelligence
-#     institution: Massachusetts Institute of Technology
-#     year: 2008
+Education
+education:
+  courses:
+  - course: Bachelor’s in Mathematics Education
+    institution: Jeonbuk National University
+    year: 2012
+  - course: Bachelor’s in Computer Science
+    institution: Jeonbuk National University
+    year: 2009
 
 # Social/Academic Networking
 # Available icons: https://docs.hugoblox.com/getting-started/page-builder/#icons

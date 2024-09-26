@@ -18,25 +18,24 @@ status:
 #  url: ""
 
 # 간략한 소개 (게시물 끝에 사용자 프로필로 표시됨)
-bio: 제 연구 관심사는 분산 로봇공학, 모바일 컴퓨팅, 그리고 프로그래밍 가능한 물질입니다.
+bio: 제 연구 관심사는 사용자 ux/ui, 모바일 컴퓨팅, 그리고 클라우드 컴퓨팅입니다.
 
 interests:
 - 인공지능
-- 컴퓨터 언어학
-- 정보 검색
+- 모바일 앱개발
+- 사용자 인터페이스
+- 스마트팜
+- 클라우드 컴퓨팅
 
-# 학력
-#education:
-#  courses:
-#  - course: 인공지능 박사
-#    institution: 스탠퍼드 대학교
-#    year: 2012
-#  - course: 인공지능 석사
-#    institution: 매사추세츠 공과대학교
-#    year: 2009
-#  - course: 인공지능 학사
-#    institution: 매사추세츠 공과대학교
-#    year: 2008
+학력
+education:
+ courses:
+ - course: 수학교육학과 학사
+   institution: 전북 대학교
+   year: 2025
+ - course: 컴퓨터공학과 학사
+   institution: 전북 대학교
+   year: 2025
 
 # 소셜/학술 네트워킹
 # 사용 가능한 아이콘: https://docs.hugoblox.com/getting-started/page-builder/#icons
