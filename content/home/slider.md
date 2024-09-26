@@ -14,48 +14,48 @@ content:
     slides:
 
     - title: "Smart Farm"
-    content: "Development of apps related to smart farming"
-    align: center
-    background:
-        image:
-        filename: smartfarm.jpg
-        filters:
-            brightness: 0.4
-        position: center
-        color: '#000'
+        content: "Development of apps related to smart farming"
+        align: center
+        background:
+            image:
+                filename: smartfarm.jpg
+                filters:
+                    brightness: 0.4
+            position: center
+            color: '#000'
 
     - title: "Cloud Computing"
-    content: "Cloud Computing with AWS"
-    align: center
-    background:
-        image:
-        filename: aws.jpg
-        filters:
-            brightness: 0.4
-        position: center
-        color: '#000'
+        content: "Cloud Computing with AWS"
+        align: center
+        background:
+            image:
+                filename: aws.jpg
+                filters:
+                    brightness: 0.4
+            position: center
+            color: '#000'
 
     - title: "Mathematics"
-    content: "Mathematics related to AI"
-    align: center
-    background:
-        image:
-        filename: mathematics.jpg
-        filters:
-            brightness: 0.4
-        position: center
-        color: '#000'
+        content: "Mathematics related to AI"
+        align: center
+        background:
+            image:
+                filename: mathematics.jpg
+                filters:
+                    brightness: 0.4
+            position: center
+            color: '#000'
 
     - title: "Development"
-    content: "Full-Stack application development"
-    align: center
-    background:
-        image:
-        filename: development.jpg
-        filters:
-            brightness: 0.4
-        position: center
-        color: '#000'
+        content: "Full-Stack application development"
+        align: center
+        background:
+            image:
+                filename: development.jpg
+                filters:
+                    brightness: 0.4
+            position: center
+            color: '#000'
 
 
 design:
