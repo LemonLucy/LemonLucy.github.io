@@ -9,6 +9,7 @@ title: ''
 
 type: landing
 
+block: slider
 content:
     slides:
 
@@ -56,13 +57,13 @@ content:
         position: center
         color: '#000'
 
-    design:
-        # Slide height is automatic unless you force a specific height (e.g. '400px')
-        slide_height: '350px'
-        is_fullscreen: true
-        # Automatically transition through slides?
-        loop: true
-        # Duration of transition between slides (in ms)
-        interval: 3000
+design:
+    # Slide height is automatic unless you force a specific height (e.g. '400px')
+    slide_height: '350px'
+    is_fullscreen: true
+    # Automatically transition through slides?
+    loop: true
+    # Duration of transition between slides (in ms)
+    interval: 3000
 
 ---
