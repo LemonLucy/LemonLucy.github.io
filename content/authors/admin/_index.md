@@ -27,7 +27,6 @@ interests:
 - Smart farm
 - Cloud Computing
 
-Education
 education:
   courses:
   - course: Bachelor’s in Mathematics Education
