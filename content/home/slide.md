@@ -7,6 +7,9 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
+title: ''
+subtitle: ''
+
 content:
   slides:
     - title: <span style="font-size:90%">AI</span>
