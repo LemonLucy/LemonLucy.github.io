@@ -23,27 +23,18 @@ date_format: Sep 2024
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: LGaimers
-    company: GenCoin
+    company: LG
     company_url: ''
-    company_logo: org-gc
-    location: California
+    company_logo: org-lg
+    location: South Korea
     date_start: '2023-07-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
+        * Data Analysing
         * Modelling
-        * Deploying
-
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+        * Data Visualization
 
 design:
   columns: '1'
