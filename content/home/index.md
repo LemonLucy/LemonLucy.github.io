@@ -4,12 +4,6 @@ title:
 type: widget_page
 
 sections:
-
-  - block: features
-    content:
-      title: 
-      text: <br><span style="font-size:125%">At MacsLAB, we conduct research utilizing AI and deep learning across various fields including healthcare, EMR, Vision, aerospace, and defense, alongside research in medical mathematics and AI-based studies. Furthermore, we are also focused on practical areas such as full-stack development and application development leveraging AI.</span>
-
   - block: slider
     content:
       slides:
