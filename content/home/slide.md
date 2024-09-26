@@ -1,5 +1,5 @@
 ---
-widget: sliders
+widget: slide
 
 # This file represents a page section.
 headless: true
