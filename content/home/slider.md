@@ -9,6 +9,7 @@ title: ''
 
 type: landing
 
+block: slider
 content:
     slides:
         - title: "Smart Farm"
