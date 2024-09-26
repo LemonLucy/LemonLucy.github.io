@@ -27,7 +27,6 @@ interests:
 - 스마트팜
 - 클라우드 컴퓨팅
 
-학력
 education:
  courses:
  - course: 수학교육학과 학사
