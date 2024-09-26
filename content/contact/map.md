@@ -1,7 +1,7 @@
 ---
-widget: contact
+widget: map
 
-title: Contact
+title: Map
 
 # Activate this widget? true/false
 active: true
