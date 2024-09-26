@@ -13,7 +13,7 @@ block: slider
 content:
     slides:
 
-    - title: <span style="font-size:90%">Smart Farm</span>
+    title: <span style="font-size:90%">Smart Farm</span>
         content: <span style="font-size:90%">Development of apps related to smart farming</span>
         align: center
         background:
@@ -24,7 +24,7 @@ content:
         position: center
         color: '#000'
 
-    - title: <span style="font-size:90%">Cloud Computing</span>
+    title: <span style="font-size:90%">Cloud Computing</span>
         content: <span style="font-size:90%">Cloud Computing with AWS</span>
         align: center
         background:
@@ -35,7 +35,7 @@ content:
         position: center
         color: '#000'
 
-    - title: <span style="font-size:90%">Mathematics</span>
+    title: <span style="font-size:90%">Mathematics</span>
         content: <span style="font-size:90%">Mathematics related to AI</span>
         align: center
         background:
@@ -46,7 +46,7 @@ content:
         position: center
         color: '#000'
 
-    - title: <span style="font-size:90%">Development</span>
+    title: <span style="font-size:90%">Development</span>
         content: <span style="font-size:90%">Full-Stack application development</span>
         align: center
         background:
