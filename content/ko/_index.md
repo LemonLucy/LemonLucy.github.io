@@ -20,13 +20,13 @@ sections:
       - title: <span style="font-size:70%">Recruit</span>
         content: <span style="font-size:70%">Interested in MacsLAB?</span>
         align: center
-        background:
-          image:
-            filename: recruitment.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
+        # background:
+        #   image:
+        #     filename: recruitment.jpg
+        #     filters:
+        #       brightness: 0.4
+        #   position: center
+        #   color: '#000'
         link:
           icon: user
           icon_pack: fas
