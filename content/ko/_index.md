@@ -8,8 +8,8 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:70%">Medical AI & Computational Science (Macs) Lab </span>
-      text: <br><span style="font-size:125%">전북대학교 의료 AI 및 계산 과학 연구실 홈페이지에 오신 것을 환영합니다.</span> <br><br>
+      title: <span style="font-size:70%"> Eungyo's Website </span>
+      text: <br><span style="font-size:125%">저의 홈페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
 
 
@@ -17,25 +17,8 @@ sections:
     content:
       slides:
 
-      - title: <span style="font-size:70%">Recruit</span>
-        content: <span style="font-size:70%">Interested in MacsLAB?</span>
-        align: center
-        # background:
-        #   image:
-        #     filename: recruitment.jpg
-        #     filters:
-        #       brightness: 0.4
-        #   position: center
-        #   color: '#000'
-        link:
-          icon: user
-          icon_pack: fas
-          text: <span style="font-size:60%">Join Us</span>
-          text-color: '#000'
-          url: contact
-
-      - title: <span style="font-size:70%">AI</span>
-        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
+      - title: <span style="font-size:70%">Cloud Computing</span>
+        content: <span style="font-size:70%">클라우드 컴퓨팅<span style="font-size:70%">
         align: center
         background:
           image:
@@ -45,8 +28,8 @@ sections:
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">Healthcare</span>
-        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+      - title: <span style="font-size:70%">SmartFarm</span>
+        content: <span style="font-size:70%">스마트팜 분야에 적용 가능한 앱 개발</span>
         align: center
         background:
           image:
@@ -57,7 +40,7 @@ sections:
           color: '#000'
 
       - title: <span style="font-size:70%">Mathematics</span>
-        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+        content: <span style="font-size:70%">AI와 관련된 수학</span>
         align: center
         background:
           image:
@@ -93,24 +76,16 @@ sections:
     id: features
     content:
       title: <span style="font-size:75%">Lab's Interests</span>
-      text: 저희 연구실에서는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
+      text: 저는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
       items:
         - name: 인공지능(AI)
           icon: code-branch
           icon_pack: fas
-          description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
-        - name: 멀티모달(Multi-modality)
-          icon: globe
-          icon_pack: fas
-          description:  <span style="font-size:90%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
-        - name: 의료수학(Medical Math)
+          description: <span style="font-size:90%">스마트팜 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
+        - name: 수학(Math)
           icon: calculator
           icon_pack: fas
-          description:  <span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
-        - name: 컨텐츠 (Contents)
-          icon: comment-dots
-          icon_pack: fas
-          description:  <span style="font-size:90%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
+          description:  <span style="font-size:90%">ai에 사용되는 확률과 통계 및 선형대수학, 이산수학.</span><br><br>
         - name: 개발 (Development)
           icon: laptop
           icon_pack: fas
