@@ -39,7 +39,7 @@ sections:
         align: center
         background:
           image:
-            filename: Ai.jpg
+            filename: aws.jpg
             filters:
               brightness: 0.4
           position: center
@@ -50,7 +50,7 @@ sections:
         align: center
         background:
           image:
-            filename: healthcare.jpg
+            filename: smartfarm.jpg
             filters:
               brightness: 0.4
           position: center
