@@ -15,20 +15,28 @@ ko:
   title: 한국어 웹사이트 제목
   params:
     description: 한국어 사이트 설명...
-  menu:
-    main:
-      - name: 홈
-        url: /
-        weight: 1
-      - name: 소개
-        url: /about/
-        weight: 2
-      - name: 경력
-        url: /experience/
-        weight: 3
-      - name: 정보
+menu:
+  main:
+    - name: 홈
+      url: /
+      weight: 1
+    - name: 소개
+      url: /about/
+      weight: 2
+    - name: 경력
+      url: /experience/
+      weight: 3
+    - name: 정보
+      url: post
+      weight: 4
+      - parent: 정보
+        name: 알림
+        url: notification
+        weight: 610
+      - parent: 정보
+        name: 뉴스
         url: post
-        weight: 4
-      - name: 문의
-        url: /contact/
-        weight: 5
+        weight: 620
+    - name: 문의
+      url: /contact/
+      weight: 5

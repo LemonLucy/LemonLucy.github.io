@@ -34,9 +34,9 @@ languages:
     languageCode: en-us
   ko:
     languageCode: ko-kr
-    title: "한국어 웹사이트 제목"
+    title: "은교 사이트"
     params:
-      description: "한국어 사이트 설명..."
+      description: "제 사이트입니다."
 
 ############################
 ## ADVANCED
