@@ -53,7 +53,7 @@ social:
 design:
   background:
     image:
-        filename: about.jpg
+      filename: about.jpg
     filters:
       brightness: 0.8
   text_color_light: true
