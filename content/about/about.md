@@ -19,14 +19,4 @@ title: 👋Hello
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
 
-design:
-    background:
-    image:
-        filename: interest.jpg
-        filters:
-        brightness: 0.8
-    text_color_light: true
-    spacing:
-        padding: ['20px', '0', '20px', '0']
-
 ---
