@@ -12,10 +12,10 @@ sections:
       text: <br><span style="font-size:125%">Welcome to my website.</span> <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
 
-design:
-  background:
-    image:
-      filename: bg.jpg
+    design:
+      background:
+        image:
+          filename: bg.jpg
 
 
   - block: slider
