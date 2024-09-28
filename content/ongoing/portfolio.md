@@ -15,7 +15,7 @@ subtitle: ''
 
 content:
   # Page type to display. E.g. project.
-  page_type: project
+  page_type: ongoingproject
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
@@ -31,7 +31,7 @@ content:
     - name: Cloud Computing
       tag: CC
     - name: Smart Farm Application
-      tag: OS
+      tag: SF
 
 design:
   columns: '1'
