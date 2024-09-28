@@ -28,16 +28,17 @@ menu:
       weight: 300
 
     - name: 정보
-      url: post
+      url: /post/
       weight: 400
     - parent: 정보
       name: 알림
-      url: notification
+      url: /notification/
       weight: 410
     - parent: 정보
       name: 뉴스
-      url: post
+      url: /post/
       weight: 420
+      
     - name: 문의
       url: /contact/
       weight: 500
