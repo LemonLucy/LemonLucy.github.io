@@ -19,5 +19,7 @@ title: 👋Hello
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
 
-class: about-section
+design:
+  columns: '1'
+  class: about-section
 ---
