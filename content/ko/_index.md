@@ -17,11 +17,10 @@ sections:
           filename: bg.jpg
 
   - block: features
-    id: features
     content:
       title: <span style="font-size:75%; color: white; background-color: rgba(0, 0, 0, 0.5); padding: 5px;"> 관심 분야 </span>
       text: <span style="color: white;">제가 관심 있는 연구 및 개발 분야는 다음과 같습니다.</span><br><br><br><br>
-      
+
       items:
         - name: 인공지능 (AI)
           icon: code-branch

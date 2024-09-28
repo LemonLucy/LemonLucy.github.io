@@ -17,7 +17,6 @@ sections:
           filename: bg.jpg
 
   - block: features
-    id: features
     content:
       title: <span style="font-size:75%; color: white;">My Interests</span>
       text: <span style="color: white;">I am interested in the following research and development fields.</span><br><br><br><br>
