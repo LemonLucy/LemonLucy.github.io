@@ -43,10 +43,12 @@ sections:
       background:
         image:
           filename: interest.jpg
+          filters:
+            brightness: 0.4
         text_color_light: true
         spacing:
           padding: ['20px', '0', '20px', '0']
-          
+
   - block: slider
     content:
       slides:
