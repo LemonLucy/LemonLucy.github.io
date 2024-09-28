@@ -28,12 +28,10 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Operating System
+    - name: Cloud Computing
+      tag: CC
+    - name: Smart Farm Application
       tag: OS
-    - name: Linux
-      tag: Linux
 
 design:
   columns: '1'
