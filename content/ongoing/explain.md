@@ -8,6 +8,12 @@ headless: true
 # Order that this section will appear in.
 weight: 20
 
+design:
+    background:
+    image:
+        filename: bg.jpg
+
+
 author: admin
 ---
 
