@@ -38,6 +38,5 @@ experience:
 
 design:
   columns: '1'
-
-class: experience-section
+  class: experience-section
 ---
