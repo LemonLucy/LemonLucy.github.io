@@ -19,24 +19,25 @@ menu:
   main:
     - name: 홈
       url: /
-      weight: 1
+      weight: 100
     - name: 소개
       url: /about/
-      weight: 2
+      weight: 200
     - name: 경력
       url: /experience/
-      weight: 3
+      weight: 300
+
     - name: 정보
       url: post
-      weight: 4
-      - parent: 정보
-        name: 알림
-        url: notification
-        weight: 610
-      - parent: 정보
-        name: 뉴스
-        url: post
-        weight: 620
+      weight: 400
+    - parent: 정보
+      name: 알림
+      url: notification
+      weight: 410
+    - parent: 정보
+      name: 뉴스
+      url: post
+      weight: 420
     - name: 문의
       url: /contact/
-      weight: 5
+      weight: 500

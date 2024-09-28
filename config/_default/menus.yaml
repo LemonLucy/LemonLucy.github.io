@@ -1,26 +1,26 @@
 main:
   - name: Home
     url: /
-    weight: 10
+    weight: 100
   - name: About
     url: about/
-    weight: 20
+    weight: 200
   - name: Experience
     url: experience/
-    weight: 30
-
-  - name: Contact
-    url: contact/
-    weight: 40
+    weight: 300
 
   - name: Inform
     url: post
-    weight: 600
+    weight: 400
   - parent: Inform
     name: Notifications
     url: notification
-    weight: 610
+    weight: 410
   - parent: Inform
     name: News
     url: post
-    weight: 620
+    weight: 420
+
+  - name: Contact
+    url: contact/
+    weight: 500
