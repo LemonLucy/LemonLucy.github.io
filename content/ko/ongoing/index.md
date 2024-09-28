@@ -1,8 +1,12 @@
 ---
 type: widget_page
 
-banner:
-  image: 'images/study.jpg'  
-  alt: 'Study Image'
-  caption: 'This is a banner'
+design:
+    background:
+    image:
+        filename: working.gif
+        filters:
+        brightness: 0.8
+    text_color_light: true
+
 ---
