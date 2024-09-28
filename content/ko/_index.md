@@ -8,13 +8,39 @@ sections:
 
   - block: features
     content:
-      title: <sspan style="font-size:150%; font-weight:bold; color:black;"> Eungyo's Website </span>
-      text: <br><span style="font-size:130%; font-weight:bold; color:black;">제 홈페이지에 오신 것을 환영합니다.</span> <br><br>
-        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
+      title: <sspan style="font-size:130%; font-weight:bold; color:black;"> Eungyo's Website </span>
+      {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
     design:
       background:
         image:
           filename: bg.jpg
+
+  - block: features
+    id: features
+    content:
+      title: <span style="font-size:75%">My Interests</span>
+      text: 저는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
+      items:
+        - name: 인공지능(AI)
+          icon: code-branch
+          icon_pack: fas
+          description: <span style="font-size:90%">스마트팜 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
+        - name: 수학(Math)
+          icon: calculator
+          icon_pack: fas
+          description:  <span style="font-size:90%">ai에 사용되는 확률과 통계 및 선형대수학, 이산수학.</span><br><br>
+        - name: 개발 (Development)
+          icon: laptop
+          icon_pack: fas
+          description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
+        - name: 솔루션 (Solution)
+          icon: app-store-ios
+          icon_pack: fab
+          description:  <span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
+    design:
+      background:
+        image:
+          filename: interest.jpg
 
   - block: slider
     content:
@@ -73,34 +99,6 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 3000
-
-
-  - block: features
-    id: features
-    content:
-      title: <span style="font-size:75%">Lab's Interests</span>
-      text: 저는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
-      items:
-        - name: 인공지능(AI)
-          icon: code-branch
-          icon_pack: fas
-          description: <span style="font-size:90%">스마트팜 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
-        - name: 수학(Math)
-          icon: calculator
-          icon_pack: fas
-          description:  <span style="font-size:90%">ai에 사용되는 확률과 통계 및 선형대수학, 이산수학.</span><br><br>
-        - name: 개발 (Development)
-          icon: laptop
-          icon_pack: fas
-          description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
-        - name: 솔루션 (Solution)
-          icon: app-store-ios
-          icon_pack: fab
-          description:  <span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
-    design:
-      background:
-        image:
-          filename: interest.jpg
 
 
   - block: collection
