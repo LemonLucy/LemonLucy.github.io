@@ -19,25 +19,25 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%">My Interests</span>
-      text: I am interested in the following research and development fields.<br><br><br><br>
+      title: <span style="font-size:75%; color: white;">My Interests</span>
+      text: <span style="color: white;">I am interested in the following research and development fields.</span><br><br><br><br>
       items:
         - name: Artificial Intelligence (AI)
           icon: code-branch
           icon_pack: fas
-          description: <span style="font-size:90%">Applying adaptive AI technologies to specialized areas such as SmartFarm.</span><br><br>
+          description: <span style="font-size:90%; color: white;">Applying adaptive AI technologies to specialized areas such as SmartFarm.</span><br><br>
         - name: Mathematics (Math)
           icon: calculator
           icon_pack: fas
-          description:  <span style="font-size:90%">Probability, statistics, linear algebra, and discrete mathematics used in AI.</span><br><br>
+          description:  <span style="font-size:90%; color: white;">Probability, statistics, linear algebra, and discrete mathematics used in AI.</span><br><br>
         - name: Development
           icon: laptop
           icon_pack: fas
-          description:  <span style="font-size:90%">Full-Stack based application development.</span><br><br>
+          description:  <span style="font-size:90%; color: white;">Full-Stack based application development.</span><br><br>
         - name: Solution
           icon: app-store-ios
           icon_pack: fab
-          description:  <span style="font-size:90%">Developing integrated solutions through the application of AI core technologies and related applications!</span><br><br>
+          description:  <span style="font-size:90%; color: white;">Developing integrated solutions through the application of AI core technologies and related applications!</span><br><br>
 
     design:
       background:
