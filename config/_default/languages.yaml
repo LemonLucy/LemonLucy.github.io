@@ -27,7 +27,7 @@ ko:
         url: /experience/
         weight: 3
       - name: 정보
-        url: /post/
+        url: post
         weight: 4
       - name: 문의
         url: /contact/
