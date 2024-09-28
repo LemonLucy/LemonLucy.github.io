@@ -8,19 +8,19 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:130%"> Eungyo's Website </span>
+      title: <span style="font-size:70%; font-weight:bold; "> Eungyo's Website </span>
       text: <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
     design:
       background:
         image:
           filename: bg.jpg
-          
+
   - block: slider
     content:
       slides:
 
-      - title: <span style="font-size:70%">Cloud Computing</span>
+      - title: <span style="font-size:70%;font-weight:bold; ">Cloud Computing</span>
         content: <span style="font-size:70%">Cloud Computing</span>
         align: center
         background:
