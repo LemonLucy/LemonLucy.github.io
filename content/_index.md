@@ -19,7 +19,7 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%">Lab's Interests</span>
+      title: <span style="font-size:75%">My Interests</span>
       text: I am interested in the following research and development fields.<br><br><br><br>
       items:
         - name: Artificial Intelligence (AI)
