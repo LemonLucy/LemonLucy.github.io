@@ -8,8 +8,9 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:130%; font-weight:bold; color:black;"> Eungyo's Website </span>
-      {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
+      title: <span style="font-size:130%"> Eungyo's Website </span>
+      text: <br><br>
+        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
     design:
       background:
         image:

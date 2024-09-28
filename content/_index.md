@@ -8,10 +8,14 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:70%"> Eungyo's Website </span>
-      text: <br><span style="font-size:125%">Welcome to my website.</span> <br><br>
+      title: <span style="font-size:130%"> Eungyo's Website </span>
+      text: <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
-
+    design:
+      background:
+        image:
+          filename: bg.jpg
+          
   - block: slider
     content:
       slides:
