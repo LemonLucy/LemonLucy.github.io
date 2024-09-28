@@ -8,7 +8,7 @@ summary:
   Control Features Allows users to manually move the robot and issue pesticide spraying commands
 
 tags:
-  - ML
+  - SF
 date: 2024-09-01
 external_link: http://github.com
 ---

@@ -33,7 +33,7 @@ menu:
       weight: 310
     - parent: 경력
       name: 완성된 프로젝트
-      url: /completed/
+      url: /experience/
       weight: 320
 
 
