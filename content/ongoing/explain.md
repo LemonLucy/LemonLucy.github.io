@@ -1,6 +1,6 @@
 ---
 # Use the Intro widget of the Blog template
-widget: ongoing
+widget: experience
 
 # This file represents a page section.
 headless: true
