@@ -8,10 +8,13 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:70%"> Eungyo's Website </span>
-      text: <br><span style="font-size:125%">제 홈페이지에 오신 것을 환영합니다.</span> <br><br>
+      title: <sspan style="font-size:150%; font-weight:bold; color:black;"> Eungyo's Website </span>
+      text: <br><span style="font-size:150%; font-weight:bold; color:black;">제 홈페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
-
+    design:
+      background:
+        image:
+          filename: bg.jpg
 
   - block: slider
     content:
