@@ -29,4 +29,6 @@ content:
 
 design:
   columns: '1'
+
+class: contact-section
 ---
