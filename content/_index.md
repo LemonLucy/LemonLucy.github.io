@@ -38,12 +38,14 @@ sections:
           icon_pack: fab
           description:  <span style="font-size:90%">Developing integrated solutions through the application of AI core technologies and related applications!</span><br><br>
 
-
     design:
       background:
         image:
           filename: interest.jpg
         text_color_light: true
+        spacing:
+          padding: ['20px', '0', '20px', '0']
+
 
   - block: slider
     content:
