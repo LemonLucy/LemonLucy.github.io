@@ -3,8 +3,6 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "LEMONLUCY"
-
 # Appearance
 
 appearance:
@@ -37,9 +35,9 @@ marketing:
 header:
   navbar:
     enable: true
-    align: r
+    align: c
     show_logo: true
-    show_language: true
+    show_language: false
     show_day_night: true
     show_search: true
     highlight_active_link: false
