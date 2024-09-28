@@ -1,6 +1,6 @@
 ---
 title: (2023 Fall Semester) Exchange Student at the University of Duisburg-Essen, Germany
-date: 2024-03-08
+date: 2023-09-01
 ---
 
 Selected as an exchange student at the University of Duisburg-Essen, Germany
