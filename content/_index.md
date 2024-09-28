@@ -43,6 +43,7 @@ sections:
       background:
         image:
           filename: interest.jpg
+        text_color_light: true
 
   - block: slider
     content:

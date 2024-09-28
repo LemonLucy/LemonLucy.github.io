@@ -15,10 +15,11 @@ sections:
       background:
         image:
           filename: bg.jpg
+        
 
   - block: features
     content:
-      title: <span style="font-size:75%">저의 관심 분야</span>
+      title: <span style="font-size:75%; font-weight:bold; ">관심 분야</span>
       text: 저는 다음과 같은 연구 및 개발 분야에 관심이 있습니다.<br><br><br><br>
       items:
         - name: 인공지능 (AI)
@@ -42,6 +43,7 @@ sections:
       background:
         image:
           filename: interest.jpg
+        text_color_light: true
 
   - block: slider
     content:
