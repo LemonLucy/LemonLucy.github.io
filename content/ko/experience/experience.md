@@ -10,7 +10,7 @@ active: true
 headless: true
 
 # 이 섹션이 페이지에 나타나는 순서입니다.
-weight: 30
+weight: 10
 
 title: 경력
 
