@@ -15,7 +15,7 @@ subtitle: ''
 
 content:
   # Page type to display. E.g. project.
-  page_type: ongoingproject
+  page_type: project
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
@@ -28,10 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Cloud Computing
-      tag: CC
-    - name: Smart Farm Application
-      tag: SF
+    - name: Machine Learning
+      tag: ML
+    - name: Operating System
+      tag: OS
+    - name: Linux
+      tag: Linux
 
 design:
   columns: '1'
