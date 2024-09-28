@@ -20,6 +20,13 @@ title: 👋Hello
 author: admin
 
 design:
-  columns: '1'
-  class: about-section
+    background:
+    image:
+        filename: interest.jpg
+        filters:
+        brightness: 0.8
+    text_color_light: true
+    spacing:
+        padding: ['20px', '0', '20px', '0']
+
 ---
