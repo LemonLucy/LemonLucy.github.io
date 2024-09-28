@@ -49,7 +49,19 @@ social:
   - icon: whatsapp
     icon_pack: fab
     link: wa.link/bas7d3
-# Github 링크 사용하려면 아래를 해제하세요
+
+design:
+  background:
+    image:
+        filename: about.jpg
+    filters:
+      brightness: 0.8
+  text_color_light: true
+  spacing:
+    padding: ['20px', '0', '20px', '0']
+        
+        
+        # Github 링크 사용하려면 아래를 해제하세요
 #- icon: github
 #  icon_pack: fab
 #  link: https://github.com/gcushen

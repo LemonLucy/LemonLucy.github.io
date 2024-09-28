@@ -50,14 +50,14 @@ social:
     icon_pack: fab
     link: wa.link/bas7d3
 design:
-    background:
+  background:
     image:
         filename: about.jpg
-        filters:
-        brightness: 0.8
-    text_color_light: true
-    spacing:
-        padding: ['20px', '0', '20px', '0']
+    filters:
+      brightness: 0.8
+  text_color_light: true
+  spacing:
+    padding: ['20px', '0', '20px', '0']
         
 # Uncomment below for Github link
 # - icon: github
