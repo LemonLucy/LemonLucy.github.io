@@ -12,9 +12,9 @@ en:
 ko:
   languageCode: ko
   contentDir: content/ko
-  title: 한국어 웹사이트 제목
+  title: LemonLucy
   params:
-    description: 한국어 사이트 설명...
+    description: 
 menu:
   main:
     - name: 소개
