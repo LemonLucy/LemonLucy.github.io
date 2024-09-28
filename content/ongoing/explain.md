@@ -10,8 +10,8 @@ weight: 20
 
 design:
     background:
-    image:
-        filename: bg.jpg
+        image:
+            filename: working.gif
 
 
 author: admin
