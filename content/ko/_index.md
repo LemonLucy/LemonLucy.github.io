@@ -8,7 +8,7 @@ sections:
 
   - block: features
     content:
-      title: <sspan style="font-size:130%; font-weight:bold; color:black;"> Eungyo's Website </span>
+      title: <span style="font-size:130%; font-weight:bold; color:black;"> Eungyo's Website </span>
       {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
     design:
       background:
