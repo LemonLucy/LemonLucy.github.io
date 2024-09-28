@@ -17,9 +17,6 @@ ko:
     description: 한국어 사이트 설명...
 menu:
   main:
-    - name: 홈
-      url: /
-      weight: 100
     - name: 소개
       url: /about/
       weight: 200
