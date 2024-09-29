@@ -106,6 +106,8 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 3000
+      spacing:
+        padding: ['100px', '0', '100px', '0']
 
   - block: collection
     content:
