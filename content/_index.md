@@ -8,8 +8,8 @@ sections:
 
   - block: features
     content:
-      title: <br><br><br><span style="font-size:150%; font-weight:bold; "> Eungyo World </span>
-      text: <br><br><br>
+      title: <br><br><span style="font-size:150%; font-weight:bold; "> Eungyo World </span>
+      text: <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field ↑" %}}
     design:
       background:
@@ -46,7 +46,7 @@ sections:
             brightness: 0.8
         text_color_light: true
         spacing:
-          padding: ['20px', '0', '20px', '0']
+          padding: ['100px', '0', '100px', '0']
 
 
   - block: slider
@@ -107,8 +107,8 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 3000
       spacing:
-        padding: ['40px', '0', '20px', '0']
-        
+        padding: ['100px', '0', '80px', '0']
+
   - block: collection
     content:
       id: section-1
