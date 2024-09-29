@@ -111,18 +111,16 @@ sections:
 
   - block: collection
     content:
-      id: section-1
       title: Notifications & News
       subtitle:
       text:
-      count: 3
+      count: 2
       offset: 0
       order: desc
       filters:
         folders:
           - notification
           - post
-          - event
     design:
       view: community/custom_card
       columns: '2'
