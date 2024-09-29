@@ -8,7 +8,7 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:70%; font-weight:bold; "> Eungyo's Website </span>
+      title: <span style="font-size:70%; font-weight:bold; "> Eungyo World </span>
       text: <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
     design:

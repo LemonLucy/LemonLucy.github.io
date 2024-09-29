@@ -8,7 +8,7 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:70%; font-weight:bold; "> Eungyo's Website </span>
+      title: <span style="font-size:70%; font-weight:bold; "> Eungyo World </span>
       text: <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
     design:
@@ -97,10 +97,6 @@ sections:
           position: center
           color: '#000'
 
-    design:
-      background:
-        image:
-          filename: bg.jpg
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
       slide_width: '100px'
