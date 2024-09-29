@@ -47,8 +47,8 @@ sections:
             brightness: 0.8
         text_color_light: true
         spacing:
-          padding: ['20px', '0', '20px', '0']
-
+          padding: ['100px', '0', '100px', '0']
+          
   - block: slider
     content:
       slides:
@@ -107,7 +107,7 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 3000
       spacing:
-        padding: ['40px', '0', '20px', '0']
+        padding: ['100px', '0', '0', '0']
 
   - block: collection
     content:
