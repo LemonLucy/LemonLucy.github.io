@@ -21,7 +21,7 @@ author: admin
 
 design:
   background:
-    color: '#090a0b'  # 배경 색상
+    color: 'rgba(0, 0, 0, 0.5)'   # 배경 색상
     text_color_light: true
     image: "about.jpg"
   css_class: fullscreen
