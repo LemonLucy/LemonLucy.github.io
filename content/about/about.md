@@ -19,11 +19,7 @@ title: 👋Hello
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
 
-design:
-  banner:
-    color: 'rgba(0, 0, 0, 0.5)'   # 배경 색상
-    text_color_light: true
-    image: "about.jpg"
-  css_class: fullscreen
+banner:
+  image: "about.jpg"
 
 ---
