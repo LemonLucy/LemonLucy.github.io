@@ -20,7 +20,7 @@ title: 👋Hello
 author: admin
 
 design:
-  background:
+  banner:
     color: 'rgba(0, 0, 0, 0.5)'   # 배경 색상
     text_color_light: true
     image: "about.jpg"
