@@ -15,7 +15,7 @@ design:
   background:
     color: '#090a0b'  # 배경 색상
     text_color_light: true
-    image: "working.gif"
+    image: "working.jpg"
   css_class: fullscreen
 ---
 
