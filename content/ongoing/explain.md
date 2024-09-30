@@ -23,4 +23,4 @@ design:
 In Progress...🔥
 {style="font-size: 3.2rem; -webkit-background-clip: text; -webkit-text-fill-color: black;"}
 <br><br><br>
-Check out my ongoing projects below 👇
+Check out my ongoing projects below 👇{style="background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;"}
