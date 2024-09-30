@@ -27,6 +27,6 @@ design:
         filename: "about.jpg"
         filters:
             brightness: 0.4
-      css_class: fullscreen
+  css_class: fullscreen
 
 ---
