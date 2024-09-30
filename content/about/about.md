@@ -24,7 +24,7 @@ design:
     color: '#090a0b'  # 배경 색상
     text_color_light: true
     image: 
-        filename: "about.jpg"
+        filename: about.jpg
         filters:
             brightness: 0.4
   css_class: fullscreen
