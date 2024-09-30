@@ -9,6 +9,14 @@ headless: true
 weight: 20
 
 author: admin
+
+author: admin
+design:
+  background:
+    color: '#090a0b'  # 배경 색상
+    text_color_light: true
+    image: "working.gif"
+  css_class: fullscreen
 ---
 
 I am on the way doing...
