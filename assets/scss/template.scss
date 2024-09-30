@@ -48,7 +48,7 @@ body {
 // more rounded cards and larger gap between cards
 .card-simple {
   margin-top: 1.8rem;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .dark .card-simple {
@@ -62,8 +62,8 @@ body {
 
 // custom section padding
 .home-section {
-  padding: 1rem 0;
-  height: 100px;
+  padding: 2rem 0;
+  height: auto;
 }
 
 .home-section.wg-about-avatar {
@@ -74,6 +74,7 @@ body {
   height: 600px; // 원하는 높이
   background-size: cover;
   background-position: center;
+  padding: 3rem 0;
 }
 
 #profile .network-icon {
