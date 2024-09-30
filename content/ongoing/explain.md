@@ -27,12 +27,4 @@ design:
 
 
 In Progress...🔥
-{style="background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;"}
-
-
-
-
-
-
-
-Check out my ongoing projects below 👇{style="background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;"}
+{style="font-size: 3.2rem; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;"}
