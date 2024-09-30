@@ -19,7 +19,7 @@ sections:
   - block: features
     content:
       title: <span style="font-size:75%">My Interests</span>
-      text: I am interested in the following research and development fields.<br><br><br><br>
+      text: I am interested in the following research and development fields.<br><br>
       items:
         - name: Artificial Intelligence (AI)
           icon: code-branch

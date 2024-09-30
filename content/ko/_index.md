@@ -20,7 +20,7 @@ sections:
   - block: features
     content:
       title: <span style="font-size:75%; font-weight:bold; ">관심 분야</span>
-      text: 저는 다음과 같은 연구 및 개발 분야에 관심이 있습니다.<br><br><br><br>
+      text: 저는 다음과 같은 연구 및 개발 분야에 관심이 있습니다.<br><br>
       items:
         - name: 인공지능 (AI)
           icon: code-branch
