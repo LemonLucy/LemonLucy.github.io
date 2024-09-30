@@ -25,7 +25,4 @@ content:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false
 
-  design:
-    columns: '1'
-    class: contact-section
 ---

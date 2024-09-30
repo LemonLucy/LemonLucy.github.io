@@ -14,7 +14,7 @@ design:
   background:
     color: '#090a0b'  # 배경 색상
     text_color_light: true
-    image: "/assets/media/about.jpg"
+    image: "about.jpg"
   css_class: fullscreen
 ---
 

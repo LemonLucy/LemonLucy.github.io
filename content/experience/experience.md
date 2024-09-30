@@ -19,5 +19,4 @@ title: Experience
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
 
-class: experience-section
 ---
