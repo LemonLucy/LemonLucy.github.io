@@ -20,7 +20,7 @@ title: 👋Hello
 author: admin
 
 banner:
-  caption: ""
-  image: "about.jpg"
+  caption: ''
+  image: 'about.jpg'
 
 ---
