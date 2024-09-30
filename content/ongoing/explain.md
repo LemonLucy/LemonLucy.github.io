@@ -22,4 +22,4 @@ design:
 In Progress: My Projects🔥
 {style="font-size: 3.2rem; -webkit-background-clip: text; -webkit-text-fill-color: black;"}
 
-Check out my ongoing projects below 😍
+Check out my ongoing projects below 👇{style="font-size: 1.5rem; -webkit-text-fill-color: black;"}
