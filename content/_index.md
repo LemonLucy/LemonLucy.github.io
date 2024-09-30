@@ -15,6 +15,8 @@ sections:
       background:
         image:
           filename: bg.jpg
+        spacing:
+          padding: ['100px', '0', '100px', '0']
 
   - block: features
     content:
