@@ -22,6 +22,10 @@ design:
 
 
 
+
+
+
+
 In Progress...🔥
 {style="font-size: 3.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: black;"}
 
@@ -31,4 +35,4 @@ In Progress...🔥
 
 
 
-Check out my ongoing projects below 👇{style="font-size: 3.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: black;"}
+Check out my ongoing projects below 👇{style="font-size: 1.7rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: black;"}
