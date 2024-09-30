@@ -19,6 +19,6 @@ design:
 ---
 
 👋 Hi, there! I'm **Eungyo**, a college student in JBNU.
-{style="font-size: 1.2rem; color: black;"}
+{style="background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;"}
 
 Check out my [resumé](/about/) and portfolio below 😍
