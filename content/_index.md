@@ -32,7 +32,7 @@ sections:
           - ongoingproject
           - project
     design:
-      view: community/custom_card
+      view: masonry
       columns: '5'
 
   - block: features
