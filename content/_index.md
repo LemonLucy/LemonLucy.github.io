@@ -8,7 +8,7 @@ sections:
 
   - block: features
     content:
-      title: <br><br><span style="font-size:150%; font-weight:bold; "> Eungyo World </span>
+      title: <span style="font-size:150%; font-weight:bold; "> Eungyo World </span>
       text: <br><br>
         {{% cta cta_link="./experience/" cta_text="See Research Field ↑" %}}
     design:
@@ -33,7 +33,7 @@ sections:
           - project
     design:
       view: community/custom_card
-      columns: '1'
+      columns: '5'
 
   - block: features
     content:
