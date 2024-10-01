@@ -18,6 +18,42 @@ sections:
         spacing:
           padding: ['100px', '0', '100px', '0']
 
+- block: collection
+  content:
+    title: Research & Development
+    items:
+      - name: Artificial Intelligence (AI)
+        icon: code-branch
+        description: AI 연구 및 프로젝트.
+      - name: Mathematics (Math)
+        icon: calculator
+        description: 수학적 연구 및 AI 적용.
+      - name: Development
+        icon: laptop
+        description: 풀스택 개발 프로젝트.
+      - name: Programming Languages
+        icon: code
+        description: Python, JavaScript 등.
+      - name: Data Analysis Tools
+        icon: database
+        description: SQL, Pandas, Excel.
+      - name: Cloud Platforms
+        icon: cloud
+        description: AWS, Azure 등 클라우드 기술.
+      - name: LG Project
+        icon: briefcase
+        description: 데이터 분석 및 시각화 프로젝트.
+      - name: JBNU Leadership
+        icon: user-tie
+        description: 팀 리더로 수행한 AI 및 UI/UX 프로젝트.
+      - name: SmartFarm Development
+        icon: leaf
+        description: 스마트팜 관련 앱 개발 프로젝트.
+  design:
+    view: community/custom_card
+    columns: '3'
+
+
   - block: features
     content:
       title: <span style="font-size:75%">My Interests</span>
