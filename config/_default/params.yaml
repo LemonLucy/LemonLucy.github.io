@@ -18,8 +18,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: ''
+    org_name: '전북대 김은교'
+    description: '전북대 학부생 김은교, 수학교육학과 컴퓨터공학과 전공'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -27,7 +27,7 @@ marketing:
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: 'google49f04177444e3804.html'
     baidu: ''
 
 # Site header
