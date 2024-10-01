@@ -34,6 +34,7 @@ sections:
     design:
       view: masonry
       columns: '1'
+      flip_alt_rows: true
 
   - block: features
     content:
