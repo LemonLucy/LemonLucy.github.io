@@ -21,7 +21,7 @@ sections:
 
   - block: collection
     content:
-      title: Notifications & News
+      title: Portfolio
       subtitle:
       text:
       count: 5
@@ -29,7 +29,7 @@ sections:
       order: desc
       filters:
         folders:
-          - ongoingprojects
+          - ongoingproject
           - project
     design:
       view: community/custom_card
