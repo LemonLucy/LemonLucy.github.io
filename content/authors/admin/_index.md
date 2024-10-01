@@ -60,7 +60,7 @@ social:
     link: www.linkedin.com/in/eungyo-kim-b12b26327
   - icon: discord
     icon_pack: fab
-    link: wa.link/bas7d3
+    link: https://discord.com/
 design:
   background:
     image:
