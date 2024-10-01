@@ -10,7 +10,7 @@ sections:
     content:
       title: <br><br><span style="font-size:150%; font-weight:bold; "> Eungyo World </span>
       text: <br><br>
-        {{% cta cta_link="./field/" cta_text="See Research Field ↑" %}}
+        {{% cta cta_link="./experience/" cta_text="See Research Field ↑" %}}
     design:
       background:
         image:
