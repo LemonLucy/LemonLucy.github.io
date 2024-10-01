@@ -21,22 +21,28 @@ sections:
   - block: collection
     content:
       title: Research & Development
-      subtitle:
-      text:
-      count: 9
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - ongoingproject/CloudComputing
-          - ongoingproject/smartfarm
-          - project/Linux
-          - project/machineLearning
-          - project/operatingSystem
+      subtitle: Ongoing Projects
 
-    design:
-      view: community/custom_card
-      columns: '3'
+      content:
+        # Page type to display. E.g. project.
+        page_type: ongoingproject
+
+        # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+        filter_default: 0
+
+        # Filter toolbar
+        filter_button:
+          - name: All
+            tag: '*'
+          - name: Cloud Computing
+            tag: CC
+          - name: Smart Farm Application
+            tag: SF
+
+      design:
+        columns: '3'
+        view: masonry
+        flip_alt_rows: true
 
   - block: features
     content:
