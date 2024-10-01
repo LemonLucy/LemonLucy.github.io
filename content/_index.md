@@ -33,7 +33,7 @@ sections:
           - project
     design:
       view: masonry
-      columns: '5'
+      columns: '1'
 
   - block: features
     content:
