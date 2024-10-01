@@ -53,10 +53,6 @@ sections:
           icon: laptop
           icon_pack: fas
           description:  <span style="font-size:90%">Full-Stack based application development.</span><br><br>
-        - name: Solution
-          icon: app-store-ios
-          icon_pack: fab
-          description:  <span style="font-size:90%">Developing integrated solutions through the application of AI core technologies and related applications!</span><br><br>
 
     design:
       background:
