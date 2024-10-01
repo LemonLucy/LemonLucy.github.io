@@ -18,19 +18,22 @@ sections:
         spacing:
           padding: ['100px', '0', '100px', '0']
 
+
   - block: collection
     content:
-      title: Research & Development
-      subtitle: Ongoing Projects
-
-      content:
-        # Page type to display. E.g. project.
-        page_type: ongoingproject
-
-      design:
-        columns: '3'
-        view: masonry
-        flip_alt_rows: true
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 5
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - ongoingprojects
+          - project
+    design:
+      view: community/custom_card
+      columns: '3'
 
   - block: features
     content:
