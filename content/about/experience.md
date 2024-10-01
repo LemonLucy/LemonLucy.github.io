@@ -36,6 +36,21 @@ experience:
         * Modelling
         * Data Visualization
 
+experience:
+  - title: teamLeader
+    company: JBNU
+    company_url: ''
+    company_logo: org-x
+    location: South Korea
+    date_start: '2024-09-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Design UX/UI app
+        * Networking with AI models
+        * Networking with Robot
+
 design:
   columns: '1'
   class: experience-section
