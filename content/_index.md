@@ -33,7 +33,7 @@ sections:
           - project
     design:
       view: masonry
-      columns: '1'
+      columns: '3'
       flip_alt_rows: true
 
   - block: features
