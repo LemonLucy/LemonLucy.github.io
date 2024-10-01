@@ -36,7 +36,6 @@ experience:
         * Modelling
         * Data Visualization
 
-experience:
   - title: teamLeader
     company: JBNU
     company_url: ''
