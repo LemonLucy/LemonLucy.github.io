@@ -27,18 +27,6 @@ sections:
         # Page type to display. E.g. project.
         page_type: ongoingproject
 
-        # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-        filter_default: 0
-
-        # Filter toolbar
-        filter_button:
-          - name: All
-            tag: '*'
-          - name: Cloud Computing
-            tag: CC
-          - name: Smart Farm Application
-            tag: SF
-
       design:
         columns: '3'
         view: masonry
