@@ -80,7 +80,7 @@ related:
 security:
   _merge: deep
 sitemap:
-  changefreq: "monthly"
+  changefreq: "always"
   priority: 0.5
   filename: "sitemap.xml"
 minify:
