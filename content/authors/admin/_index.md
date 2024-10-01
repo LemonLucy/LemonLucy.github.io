@@ -49,6 +49,18 @@ social:
   - icon: whatsapp
     icon_pack: fab
     link: wa.link/bas7d3
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/eungyo0965/
+  - icon: youtube
+    icon_pack: fab
+    link: https://youtube.com/@kimeungyo9861?si=KeF5kTbgP-IoVTqU
+  - icon: linkedin
+    icon_pack: fab
+    link: www.linkedin.com/in/eungyo-kim-b12b26327
+  - icon: discord
+    icon_pack: fab
+    link: wa.link/bas7d3
 design:
   background:
     image:
