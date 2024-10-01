@@ -70,11 +70,6 @@ design:
   text_color_light: true
   spacing:
     padding: ['20px', '0', '20px', '0']
-        
-# Uncomment below for Github link
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
 
 # To link a resume/CV PDF in the About widget, copy the resume/CV to `static/files/cv.pdf` and uncomment below.
 # - icon: cv
