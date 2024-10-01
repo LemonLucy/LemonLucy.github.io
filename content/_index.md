@@ -33,7 +33,7 @@ sections:
           - project
     design:
       view: community/custom_card
-      columns: '3'
+      columns: '1'
 
   - block: features
     content:
