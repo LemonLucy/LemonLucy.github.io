@@ -47,7 +47,7 @@ sections:
         folders:
           - ongoingproject
     design:
-      view: gorgeous
+      view: gorgeous_card
       columns: '3'
       flip_alt_rows: true
     
