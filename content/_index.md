@@ -37,7 +37,7 @@ sections:
 
   - block: collection
     content:
-      title: Project
+      title: Studying
       subtitle:
       text:
       count: 2
