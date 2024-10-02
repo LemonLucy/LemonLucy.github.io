@@ -21,7 +21,7 @@ sections:
 
   - block: collection
     content:
-      title: Portfolio
+      title: My Work
       subtitle:
       text:
       count: 3

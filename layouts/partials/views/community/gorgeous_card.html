@@ -20,24 +20,28 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="border-radius: 10px; overflow: hidden; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; background-color: #f9f9f9; border: none;"
+<div class="card" style="display: flex; align-items: center; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; background-color: #f9f9f9; border: none; padding: 20px;"
      onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.1)';"
      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(0, 0, 0, 0.05)';">
 
+  <!-- 이미지 영역 -->
   {{ with $resource }}
-  {{ $image := .Resize "550x" }}
+  {{ $image := .Resize "300x200" }} <!-- 이미지 크기를 적절하게 조정 -->
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay" style="display: block; overflow: hidden; position: relative;">
+  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay" style="display: block; overflow: hidden; flex-shrink: 0; margin-right: 20px;">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; object-fit: cover; transition: filter 0.5s ease, transform 0.5s ease;"
+         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; object-fit: cover; transition: transform 0.5s ease, filter 0.5s ease;"
          onmouseover="this.style.transform='scale(1.05)'; this.style.filter='brightness(0.9)';"
          onmouseout="this.style.transform='scale(1)'; this.style.filter='brightness(1)';">
   </a>
   {{ end }}
 
-  <div class="card-text" style="padding: 20px;">
+  <!-- 텍스트 영역 -->
+  <div class="card-text" style="flex: 1;">
+
+    <!-- 제목 -->
     <div class="section-subheading article-title mb-1 mt-3">
-      <h4 style="font-size: 1.4rem; font-weight: 600; color: #222; text-transform: capitalize;">
+      <h4 style="font-size: 1.4rem; font-weight: 600; color: #222;">
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="color: #222; text-decoration: none; transition: color 0.3s ease;"
            onmouseover="this.style.color='#ff5722';"
            onmouseout="this.style.color='#222';">{{ $item.Title | markdownify | emojify }}</a>
@@ -65,5 +69,6 @@
          onmouseout="this.style.backgroundColor='#ff5722';">Read More</a>
     </div>
     {{ end }}
+
   </div>
 </div>
