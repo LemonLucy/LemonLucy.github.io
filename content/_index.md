@@ -35,7 +35,7 @@ sections:
       columns: '3'
       flip_alt_rows: true
 
-  - block: collection
+  - block: features
     content:
       title: I am Studying ...
       subtitle:
