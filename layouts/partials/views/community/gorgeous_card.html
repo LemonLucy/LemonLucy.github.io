@@ -20,32 +20,32 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; background-color: white; border: 1px solid #ddd;"
-     onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 12px 24px rgba(0, 0, 0, 0.2)';"
-     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.1)';">
+<div class="card" style="border-radius: 10px; overflow: hidden; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; background-color: #f9f9f9; border: none;"
+     onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.1)';"
+     onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(0, 0, 0, 0.05)';">
 
   {{ with $resource }}
   {{ $image := .Resize "550x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay" style="display: block; overflow: hidden; position: relative;">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; object-fit: cover; transition: transform 0.5s ease;"
-         onmouseover="this.style.transform='scale(1.1)';"
-         onmouseout="this.style.transform='scale(1)';">
+         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; object-fit: cover; transition: filter 0.5s ease, transform 0.5s ease;"
+         onmouseover="this.style.transform='scale(1.05)'; this.style.filter='brightness(0.9)';"
+         onmouseout="this.style.transform='scale(1)'; this.style.filter='brightness(1)';">
   </a>
   {{ end }}
 
   <div class="card-text" style="padding: 20px;">
     <div class="section-subheading article-title mb-1 mt-3">
-      <h4 style="font-size: 1.6rem; font-weight: bold; color: #333;">
-        <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="color: #333; text-decoration: none; transition: color 0.3s ease;"
-           onmouseover="this.style.color='#007bff';"
-           onmouseout="this.style.color='#333';">{{ $item.Title | markdownify | emojify }}</a>
+      <h4 style="font-size: 1.4rem; font-weight: 600; color: #222; text-transform: capitalize;">
+        <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="color: #222; text-decoration: none; transition: color 0.3s ease;"
+           onmouseover="this.style.color='#ff5722';"
+           onmouseout="this.style.color='#222';">{{ $item.Title | markdownify | emojify }}</a>
       </h4>
     </div>
 
     {{ if $item.Params.authors }}
-    <div class="article-metadata" style="font-size: 0.9rem; color: #888;">
+    <div class="article-metadata" style="font-size: 0.85rem; color: #777;">
       <div>
         {{ partial "page_metadata_authors" $item }}
       </div>
@@ -53,16 +53,16 @@
     {{ end }}
 
     {{ with $summary }}
-    <div class="article-style" style="color: #666; line-height: 1.6;">
+    <div class="article-style" style="color: #555; line-height: 1.7;">
       <p>{{ . }}</p>
     </div>
     {{ end }}
 
     {{ if $has_attachments }}
     <div class="btn-links" style="margin-top: 20px;">
-      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;"
-         onmouseover="this.style.backgroundColor='#0056b3';"
-         onmouseout="this.style.backgroundColor='#007bff';">Read More</a>
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="display: inline-block; padding: 8px 16px; background-color: #ff5722; color: white; border-radius: 3px; text-decoration: none; transition: background-color 0.3s ease;"
+         onmouseover="this.style.backgroundColor='#e64a19';"
+         onmouseout="this.style.backgroundColor='#ff5722';">Read More</a>
     </div>
     {{ end }}
   </div>
