@@ -29,7 +29,7 @@ sections:
       order: desc
       filters:
         folders:
-          - project
+          - ongoingproject
     design:
       view: card
       columns: '3'
@@ -45,7 +45,7 @@ sections:
       order: desc
       filters:
         folders:
-          - ongoingproject
+          - project
     design:
       view: gorgeous_card
       columns: '1'
