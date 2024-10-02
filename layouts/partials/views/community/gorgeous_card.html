@@ -39,15 +39,3 @@
 
   </div>
 </div>
-
-<!-- 조건문 추가: view 값에 따라 다른 스타일 적용 -->
-{{ if eq .Params.view "card" }}
-  <!-- card 뷰일 경우 이 코드 실행 -->
-  {{ partial "view/community/card.html" . }}
-{{ else if eq .Params.view "gorgeous_card" }}
-  <!-- gorgeous_card 뷰일 경우 이 코드 실행 -->
-  {{ partial "view/community/gorgeous_card.html" . }}
-{{ else }}
-  <!-- 기본 값: card 뷰 사용 -->
-  {{ partial "view/community/card.html" . }}
-{{ end }}
