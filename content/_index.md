@@ -32,7 +32,7 @@ sections:
           - ongoingproject
           - project
     design:
-      view: masonry
+      view: card
       columns: '3'
       flip_alt_rows: true
 
