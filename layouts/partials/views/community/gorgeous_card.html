@@ -1,11 +1,11 @@
 <div class="container">
-  <div class="row align-items-center" style="border: 2px solid #ddd !important; border-radius: 10px !important; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important; background-color: rgb(237, 190, 246) !important; padding: 20px !important; margin-bottom: 20px !important; overflow: hidden !important;">
+  <div class="row align-items-center" style="border: 2px solid #ddd; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); background-color: rgb(255, 255, 255); padding: 20px; margin-bottom: 20px; overflow: hidden;">
     
     <!-- 이미지 영역 -->
-    <div class="col-4" style="padding: 0 !important;">
+    <div class="col-4" style="padding: 0;">
       {{ if .Params.image }}
-      <a href="{{ .RelPermalink }}" style="display: block !important; overflow: hidden !important;">
-        <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100% !important; height: auto !important; object-fit: cover !important; transition: transform 0.5s ease !important;"
+      <a href="{{ .RelPermalink }}" style="display: block; overflow: hidden;">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; height: auto; object-fit: cover; transition: transform 0.5s ease;"
              onmouseover="this.style.transform='scale(1.1)';"
              onmouseout="this.style.transform='scale(1)';">
       </a>
@@ -13,24 +13,24 @@
     </div>
 
     <!-- 설명 영역 -->
-    <div class="col-8" style="padding-left: 20px !important;">
-      <div class="section-subheading article-title mb-1 mt-3" style="text-align: left !important;">
-        <h4 style="font-size: 1.5rem !important; font-weight: bold !important; color: #333 !important;">
-          <a href="{{ .RelPermalink }}" style="color: #333 !important; text-decoration: none !important; transition: color 0.3s ease !important;"
+    <div class="col-8" style="padding-left: 20px;">
+      <div class="section-subheading article-title mb-1 mt-3">
+        <h4 style="font-size: 1.5rem; font-weight: bold; color: #333;">
+          <a href="{{ .RelPermalink }}" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
              onmouseover="this.style.color='#007bff';"
              onmouseout="this.style.color='#333';">{{ .Title | markdownify | emojify }}</a>
         </h4>
       </div>
 
       {{ with .Summary }}
-      <div style="color: #666 !important; margin-bottom: 20px !important;">
+      <div style="color: #666; margin-bottom: 20px;">
         <p>{{ . }}</p>
       </div>
       {{ end }}
 
       {{ if .Params.attachments }}
-      <div style="margin-top: 20px !important;">
-        <a href="{{ .RelPermalink }}" style="display: inline-block !important; padding: 10px 20px !important; background-color: #007bff !important; color: white !important; border-radius: 5px !important; text-decoration: none !important; transition: background-color 0.3s ease !important;"
+      <div style="margin-top: 20px;">
+        <a href="{{ .RelPermalink }}" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;"
            onmouseover="this.style.backgroundColor='#0056b3';"
            onmouseout="this.style.backgroundColor='#007bff';">Read More</a>
       </div>
