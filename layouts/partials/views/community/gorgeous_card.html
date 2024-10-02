@@ -1,5 +1,5 @@
 <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; padding: 20px; align-items: center; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: box-shadow 0.3s ease-in-out; background-color: rgb(237, 190, 246); overflow: hidden;">
-  
+
   <!-- 이미지 영역 -->
   {{ if .Params.image }}
   <a href="{{ .RelPermalink }}" style="display: block; overflow: hidden;">
@@ -8,9 +8,11 @@
          onmouseout="this.style.transform='scale(1)';">
   </a>
   {{ end }}
-  
+
   <!-- 설명 영역 -->
   <div style="padding: 20px;">
+
+    <!-- 제목 및 링크 -->
     <div class="section-subheading article-title mb-1 mt-3">
       <h4 style="font-size: 1.5rem; font-weight: bold; color: #333;">
         <a href="{{ .RelPermalink }}" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
@@ -19,12 +21,14 @@
       </h4>
     </div>
 
+    <!-- 요약문 표시 -->
     {{ with .Summary }}
     <div style="color: #666; margin-bottom: 20px;">
       <p>{{ . }}</p>
     </div>
     {{ end }}
 
+    <!-- 첨부파일이 있는 경우 Read More 버튼 -->
     {{ if .Params.attachments }}
     <div style="margin-top: 20px;">
       <a href="{{ .RelPermalink }}" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;"
@@ -32,5 +36,18 @@
          onmouseout="this.style.backgroundColor='#007bff';">Read More</a>
     </div>
     {{ end }}
+
   </div>
 </div>
+
+<!-- 조건문 추가: view 값에 따라 다른 스타일 적용 -->
+{{ if eq .Params.view "card" }}
+  <!-- card 뷰일 경우 이 코드 실행 -->
+  {{ partial "view/card.html" . }}
+{{ else if eq .Params.view "gorgeous_card" }}
+  <!-- gorgeous_card 뷰일 경우 이 코드 실행 -->
+  {{ partial "view/gorgeous_card.html" . }}
+{{ else }}
+  <!-- 기본 값: card 뷰 사용 -->
+  {{ partial "view/card.html" . }}
+{{ end }}
