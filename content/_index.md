@@ -48,7 +48,7 @@ sections:
           - ongoingproject
     design:
       view: gorgeous_card
-      columns: '3'
+      columns: '1'
       flip_alt_rows: true
     
 
