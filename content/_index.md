@@ -37,7 +37,7 @@ sections:
 
   - block: collection
     content:
-      title: Studying
+      title: I am Studying ...
       subtitle:
       text:
       count: 2
