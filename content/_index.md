@@ -76,8 +76,8 @@ sections:
         folders:
           - ongoingproject
     design:
-      view: gorgeous_card
-      columns: '1'
+      view: community/gorgeous_card
+      columns: '2'
       flip_alt_rows: true
 
 
