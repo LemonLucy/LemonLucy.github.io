@@ -1,37 +1,36 @@
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 20px;">
-    <div style="border: 2px solid #ddd !important; border-radius: 10px !important; overflow: hidden !important; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important; transition: box-shadow 0.3s ease-in-out; background-color: white !important;">
-      <div style="position: relative; overflow: hidden !important;">
-        <!-- 이미지 처리 -->
-        {{ if .Params.image }}
-        <a href="{{ .RelPermalink }}" style="display: block !important;">
-          <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100% !important; height: 250px !important; object-fit: cover !important; transition: transform 0.4s ease !important;"
-               onmouseover="this.style.transform='scale(1.1)';"
-               onmouseout="this.style.transform='scale(1)';">
-        </a>
-        {{ end }}
+<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; padding: 20px; align-items: center; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: box-shadow 0.3s ease-in-out; background-color: rgb(237, 190, 246); overflow: hidden;">
   
-        <!-- 오버레이 효과 -->
-        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3); opacity: 0; transition: opacity 0.4s ease;"
-             onmouseover="this.style.opacity=1;"
-             onmouseout="this.style.opacity=0;"></div>
-      </div>
+  <!-- 이미지 영역 -->
+  {{ if .Params.image }}
+  <a href="{{ .RelPermalink }}" style="display: block; overflow: hidden;">
+    <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;"
+         onmouseover="this.style.transform='scale(1.1)';"
+         onmouseout="this.style.transform='scale(1)';">
+  </a>
+  {{ end }}
   
-      <!-- 카드 텍스트 영역 -->
-      <div style="padding: 15px !important; background-color: white !important;">
-        <h3 style="font-size: 1.4rem !important; font-weight: bold !important; margin-bottom: 10px !important; color: #333 !important;">
-          <a href="{{ .RelPermalink }}" style="color: inherit !important; text-decoration: none !important; transition: color 0.3s !important;"
-             onmouseover="this.style.color='#007bff';"
-             onmouseout="this.style.color='#333';">{{ .Title }}</a>
-        </h3>
-  
-        {{ with .Summary }}
-        <p style="color: #666 !important; margin-bottom: 15px !important;">{{ . }}</p>
-        {{ end }}
-  
-        <a href="{{ .RelPermalink }}" style="display: inline-block !important; padding: 8px 16px !important; background-color: #007bff !important; color: white !important; border-radius: 5px !important; text-decoration: none !important; font-weight: bold !important; transition: background-color 0.3s ease !important;"
-           onmouseover="this.style.backgroundColor='#0056b3';"
-           onmouseout="this.style.backgroundColor='#007bff';">Read More</a>
-      </div>
+  <!-- 설명 영역 -->
+  <div style="padding: 20px;">
+    <div class="section-subheading article-title mb-1 mt-3">
+      <h4 style="font-size: 1.5rem; font-weight: bold; color: #333;">
+        <a href="{{ .RelPermalink }}" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
+           onmouseover="this.style.color='#007bff';"
+           onmouseout="this.style.color='#333';">{{ .Title | markdownify | emojify }}</a>
+      </h4>
     </div>
+
+    {{ with .Summary }}
+    <div style="color: #666; margin-bottom: 20px;">
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+
+    {{ if .Params.attachments }}
+    <div style="margin-top: 20px;">
+      <a href="{{ .RelPermalink }}" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;"
+         onmouseover="this.style.backgroundColor='#0056b3';"
+         onmouseout="this.style.backgroundColor='#007bff';">Read More</a>
+    </div>
+    {{ end }}
   </div>
-  
+</div>
