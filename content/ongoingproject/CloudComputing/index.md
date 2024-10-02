@@ -6,4 +6,5 @@ tags:
   - CC
 date: 2024-09-01
 external_link: http://github.com
+view: "gorgeous_card" 
 ---
