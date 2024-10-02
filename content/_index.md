@@ -24,17 +24,33 @@ sections:
       title: Portfolio
       subtitle:
       text:
-      count: 5
+      count: 3
       offset: 0
       order: desc
       filters:
         folders:
-          - ongoingproject
           - project
     design:
       view: card
       columns: '3'
       flip_alt_rows: true
+
+  - block: collection
+    content:
+      title: Project
+      subtitle:
+      text:
+      count: 2
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - ongoingproject
+    design:
+      view: gorgeous
+      columns: '3'
+      flip_alt_rows: true
+    
 
   - block: features
     content:
