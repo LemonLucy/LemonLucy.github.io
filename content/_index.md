@@ -29,26 +29,10 @@ sections:
       order: desc
       filters:
         folders:
-          - ongoingproject
+          - project
     design:
       view: card
       columns: '3'
-      flip_alt_rows: true
-
-  - block: collection
-    content:
-      title: I am Studying ...
-      subtitle:
-      text:
-      count: 2
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - project
-    design:
-      view: gorgeous_card
-      columns: '1'
       flip_alt_rows: true
     
 
@@ -79,6 +63,22 @@ sections:
         text_color_light: true
         spacing:
           padding: ['100px', '0', '100px', '0']
+
+  - block: collection
+    content:
+      title: I am Studying ...
+      subtitle:
+      text:
+      count: 2
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - ongoingproject
+    design:
+      view: gorgeous_card
+      columns: '1'
+      flip_alt_rows: true
 
 
   - block: slider
