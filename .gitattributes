@@ -1,0 +1,5 @@
+# 모든 텍스트 파일을 LF 형식으로 체크아웃
+* text=auto
+
+# Windows용 실행 파일은 CRLF를 사용
+*.ps1 text eol=crlf
