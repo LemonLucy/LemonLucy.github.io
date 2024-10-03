@@ -1,4 +1,4 @@
-menu:
+menus:
   main:
     - name: 소개
       url: about
