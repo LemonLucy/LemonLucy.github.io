@@ -126,5 +126,6 @@ sections:
     design:
       view: community/custom_card
       columns: '2'
-
+      
+author: admin
 ---
