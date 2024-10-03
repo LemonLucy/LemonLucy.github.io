@@ -18,31 +18,31 @@ en:
   menus:
     main:
     - name: About
-      url: about
+      url: /about/
       weight: 200
 
     - name: Experience
-      url: experience
+      url: /experience/
       weight: 300
     - parent: Experience
       name: Ongoing Projects
-      url: ongoing
+      url: /ongoing/
       weight: 310
     - parent: Experience
       name: Completed Projects
-      url: experience
+      url: /experience/
       weight: 320
 
     - name: Inform
-      url: post
+      url: /post/
       weight: 400
     - parent: Inform
       name: Notifications
-      url: notification
+      url: /notification/
       weight: 410
     - parent: Inform
       name: News
-      url: post
+      url: /post/
       weight: 420
 
     # - name: RoadMap
@@ -50,5 +50,5 @@ en:
     #   weight: 500    
 
     - name: Contact
-      url: contact
+      url: /contact/
       weight: 600
