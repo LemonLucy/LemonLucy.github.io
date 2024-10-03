@@ -29,9 +29,9 @@ menus:
     url: post
     weight: 420
 
-  - name: 로드맵
-    url: roadmap
-    weight: 500
+  # - name: 로드맵
+  #   url: roadmap
+  #   weight: 500
     
   - name: 문의
     url: contact
