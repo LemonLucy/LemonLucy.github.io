@@ -15,39 +15,40 @@ en:
   title: LemonLucy
   params:
     description: 
-  main:
-    - name: About
-      url: about/
-      weight: 200
+  menus:
+    main:
+      - name: About
+        url: about/
+        weight: 200
 
-    - name: Experience
-      url: experience
-      weight: 300
-    - parent: Experience
-      name: Ongoing Projects
-      url: ongoing
-      weight: 310
-    - parent: Experience
-      name: Completed Projects
-      url: experience
-      weight: 320
+      - name: Experience
+        url: experience
+        weight: 300
+      - parent: Experience
+        name: Ongoing Projects
+        url: ongoing
+        weight: 310
+      - parent: Experience
+        name: Completed Projects
+        url: experience
+        weight: 320
 
-    - name: Inform
-      url: post
-      weight: 400
-    - parent: Inform
-      name: Notifications
-      url: notification
-      weight: 410
-    - parent: Inform
-      name: News
-      url: post
-      weight: 420
+      - name: Inform
+        url: post
+        weight: 400
+      - parent: Inform
+        name: Notifications
+        url: notification
+        weight: 410
+      - parent: Inform
+        name: News
+        url: post
+        weight: 420
 
-    - name: RoadMap
-      url: roadMap/
-      weight: 500    
+      - name: RoadMap
+        url: roadMap/
+        weight: 500    
 
-    - name: Contact
-      url: contact/
-      weight: 600
+      - name: Contact
+        url: contact/
+        weight: 600
