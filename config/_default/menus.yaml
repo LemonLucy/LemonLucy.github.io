@@ -1,38 +1,37 @@
-menus:
-  main:
-  - name: 소개
-    url: /about/
-    weight: 200
+main:
+- name: 소개
+  url: /about/
+  weight: 200
 
-  - name: 경력
-    url: /experience/
-    weight: 300
-  - parent: 경력
-    name: 진행중인 프로젝트 및 학습
-    url: /ongoing/
-    weight: 310
-  - parent: 경력
-    name: 완성된 프로젝트
-    url: /experience/
-    weight: 320
+- name: 경력
+  url: /experience/
+  weight: 300
+- parent: 경력
+  name: 진행중인 프로젝트 및 학습
+  url: /ongoing/
+  weight: 310
+- parent: 경력
+  name: 완성된 프로젝트
+  url: /experience/
+  weight: 320
 
 
-  - name: 정보
-    url: /post/
-    weight: 400
-  - parent: 정보
-    name: 알림
-    url: /notification/
-    weight: 410
-  - parent: 정보
-    name: 뉴스
-    url: /post/
-    weight: 420
+- name: 정보
+  url: /post/
+  weight: 400
+- parent: 정보
+  name: 알림
+  url: /notification/
+  weight: 410
+- parent: 정보
+  name: 뉴스
+  url: /post/
+  weight: 420
 
-  # - name: 로드맵
-  #   url: roadmap
-  #   weight: 500
-    
-  - name: 문의
-    url: /contact/
-    weight: 600
+# - name: 로드맵
+#   url: roadmap
+#   weight: 500
+  
+- name: 문의
+  url: /contact/
+  weight: 600
