@@ -20,7 +20,7 @@ sections:
 
   - block: collection
     content:
-      title: Summary
+      title: Bio
       subtitle:
       text:
       count: 1
@@ -28,7 +28,7 @@ sections:
       order: desc
       filters:
         folders:
-          - authors/admin
+          - project
     design:
       view: gorgeous_card
       columns: '2'
