@@ -1,38 +1,38 @@
 ---
-# A section created with the Portfolio widget.
-# This section displays content from `content/project/`.
-# See https://docs.hugoblox.com/widget/portfolio/
+# Portfolio 위젯을 사용하여 생성된 섹션입니다.
+# 이 섹션은 `content/project/`에서 콘텐츠를 표시합니다.
+# 자세한 내용은 https://docs.hugoblox.com/widget/portfolio/를 참조하세요.
 widget: portfolio
 
-# This file represents a page section.
+# 이 파일은 페이지 섹션을 나타냅니다.
 headless: true
 
-# Order that this section appears on the page.
+# 이 섹션이 페이지에서 나타나는 순서입니다.
 weight: 30
 
 title: ''
 subtitle: ''
 
 content:
-  # Page type to display. E.g. project.
+  # 표시할 페이지 유형. 예: project.
   page_type: project
 
-  # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  # 기본 필터 인덱스 (예: 0은 아래의 첫 번째 `filter_button` 항목에 해당).
   filter_default: 0
 
-  # Filter toolbar (optional).
-  # Add or remove as many filters (`filter_button` instances) as you like.
-  # To show all items, set `tag` to "*".
-  # To filter by a specific tag, set `tag` to an existing tag name.
-  # To remove the toolbar, delete the entire `filter_button` block.
+  # 필터 툴바 (선택 사항).
+  # 원하는 만큼 필터 (`filter_button` 항목)를 추가하거나 제거할 수 있습니다.
+  # 모든 항목을 표시하려면 `tag`를 "*"로 설정하십시오.
+  # 특정 태그로 필터링하려면 `tag`를 기존 태그 이름으로 설정하십시오.
+  # 툴바를 제거하려면 전체 `filter_button` 블록을 삭제하십시오.
   filter_button:
-    - name: All
+    - name: 모두
       tag: '*'
-    - name: Machine Learning
+    - name: 머신러닝
       tag: ML
-    - name: Operating System
+    - name: 운영체제
       tag: OS
-    - name: Linux
+    - name: 리눅스
       tag: Linux
 
 design:

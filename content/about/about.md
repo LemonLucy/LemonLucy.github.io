@@ -12,10 +12,18 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: 안녕하세요
+title: 👋안녕하세요
 
 # Choose the user profile to display
 # This should be the username (folder name) of a profile in your `content/authors/` folder.
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
+
+design:
+  background:
+    color: '#090a0b'  # 배경 색상
+    text_color_light: false
+    image: "mitty.jpg"
+  css_class: fullscreen
+
 ---

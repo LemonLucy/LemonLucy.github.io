@@ -9,9 +9,21 @@ headless: true
 weight: 20
 
 author: admin
+
+design:
+  background:
+    color: '#090a0b'  # 배경 색상
+    text_color_light: true
+    image: "working.jpg"
+  css_class: fullscreen
 ---
 
-진행중인 프로젝트..
-{style="font-size: 3.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: black;"}
 
-현재 진행 중인 프로젝트를 밑에서 확인하세요 😍
+
+
+
+
+
+
+🔥Currently Working On...🔥
+{style="font-size: 3.2rem; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;"}
