@@ -28,9 +28,9 @@ sections:
       order: desc
       filters:
         folders:
-          - authors
+          - authors/admin
     design:
-      view: 
+      view: gorgeous_card
       columns: '2'
 
   - block: collection
