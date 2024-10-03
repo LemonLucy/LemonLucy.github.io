@@ -9,16 +9,16 @@ headless: true
 weight: 20
 
 author: admin
-design:
-  background:
-    color: '#090a0b'  # 배경 색상
-    text_color_light: true
-    image: "about.jpg"
-  css_class: fullscreen
+#design:
+#  background:
+#    color: '#090a0b'
+#    text_color_light: true
+#    video:
+#      path:  # enter filename of a video in /assets/media
+#  css_class: fullscreen
 ---
 
 👋 Hi, there! I'm **Eungyo**, a college student in JBNU.
-{style="background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;"}
+{style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
 Check out my [resumé](/about/) and portfolio below 😍
-{style="background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;"}

@@ -1,0 +1,94 @@
+---
+# An instance of the Experience widget.
+# Documentation: https://docs.hugoblox.com/page-builder/
+widget: timeline
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 10
+
+title: RoadMap
+subtitle:
+
+date_format: Sep 2024
+
+experience:
+  - title: 23세 ~ 25세 기초 다지기 및 실무 경험 쌓기
+    company: 'GenCoin'
+    location: South Korea
+    date_start: '2023-07-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Data Analysing
+        * Modelling
+        * Data Visualization
+### 프론트엔드 기초 다지기
+- **HTML, CSS, JavaScript**의 완벽한 이해
+- **DOM 조작**과 **이벤트 핸들링** 능숙하게 다루기
+- **Git/GitHub**을 통해 버전 관리 도구 사용법 익히기
+
+### 프론트엔드 프레임워크 학습
+- **React.js**, **Vue.js**와 같은 프레임워크/라이브러리 학습
+- **JavaScript 비동기 처리** 및 **API 통신** 학습
+
+### 프로젝트 경험 쌓기
+- 개인 포트폴리오 웹사이트 구축
+- **클론 코딩**을 통해 웹사이트 디자인 및 기능 구현
+
+### 호주 워킹홀리데이 준비
+- 비자 발급 절차 확인
+- 현지 IT 관련 커뮤니티와 네트워킹 준비
+
+  - title: teamLeader
+    company: JBNU
+    company_url: ''
+    company_logo: org-x
+    location: South Korea
+    date_start: '2024-09-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Design UX/UI app
+        * Networking with AI models
+        * Networking with Robot
+
+design:
+  columns: '1'
+---
+
+---
+widget: 23
+
+# Activate this widget? true/false
+active: true
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 10
+
+title: 23세 ~ 25세 기초 다지기 및 실무 경험 쌓기
+---
+
+### 프론트엔드 기초 다지기
+- **HTML, CSS, JavaScript**의 완벽한 이해
+- **DOM 조작**과 **이벤트 핸들링** 능숙하게 다루기
+- **Git/GitHub**을 통해 버전 관리 도구 사용법 익히기
+
+### 프론트엔드 프레임워크 학습
+- **React.js**, **Vue.js**와 같은 프레임워크/라이브러리 학습
+- **JavaScript 비동기 처리** 및 **API 통신** 학습
+
+### 프로젝트 경험 쌓기
+- 개인 포트폴리오 웹사이트 구축
+- **클론 코딩**을 통해 웹사이트 디자인 및 기능 구현
+
+### 호주 워킹홀리데이 준비
+- 비자 발급 절차 확인
+- 현지 IT 관련 커뮤니티와 네트워킹 준비

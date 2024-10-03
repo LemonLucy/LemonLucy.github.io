@@ -109,6 +109,7 @@ extensions:
 
 languages:
   en:
+    contentDir: content/en
     disabled: false
     languageCode: en-US
     languageDirection: ltr
@@ -116,9 +117,8 @@ languages:
     params:
       subtitle: Reference, Tutorials, and Explanations
     title: Project Documentation
-    weight: 1
+    weight: 2
   ko:
-    contentDir: content/ko
     disabled: false
     languageCode: ko-KR
     languageDirection: ltr
@@ -126,4 +126,4 @@ languages:
     params:
       subtitle: 참조, 튜토리얼 및 설명
     title: 프로젝트 문서
-    weight: 2
+    weight: 1

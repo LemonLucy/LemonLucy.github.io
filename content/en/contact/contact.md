@@ -7,8 +7,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: '문의'
-subtitle: '여기로 문의주세요!'
+title: 'Contact'
+subtitle: 'Find us here!'
 
 type: landing
 
@@ -29,4 +29,6 @@ content:
 
 design:
   columns: '1'
+
+class: contact-section
 ---

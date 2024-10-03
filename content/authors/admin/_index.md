@@ -1,66 +1,55 @@
---- 
-# Display name
-title: Eungyo Kim
+---
+# 표시 이름
+title: 김은교
 
-# Is this user the main user of the site?
+# 이 사용자가 사이트의 주 사용자입니까?
 superuser: true
 
-# Role/Position
-role: 'Student'
+# 역할/직위
+role: '학생'
 
-# Status Emoji
+# 상태 이모지
 status:
   icon: ☕️
 
-# Organization
-# organizations:
-# - name: Tencent
-#   url: ""
+# 소속
+#organizations:
+#- name: 腾讯
+#  url: ""
 
-# Brief Introduction (Displayed in user profile at the end of posts)
-bio: My research interests include distributed robotics, mobile computing, and programmable matter.
+# 간략한 소개 (게시물 끝에 사용자 프로필로 표시됨)
+bio: 제 연구 관심사는 사용자 ux/ui, 모바일 컴퓨팅, 그리고 클라우드 컴퓨팅입니다.
 
 interests:
-- Artificial Intelligence
-- Mobile App Development
-- User Interface
-- Smart farm
-- Cloud Computing
+- 인공지능
+- 모바일 앱개발
+- 사용자 인터페이스
+- 스마트팜
+- 클라우드 컴퓨팅
 
 education:
-  courses:
-  - course: Bachelor’s in Mathematics Education
-    institution: Jeonbuk National University
-    year: 2012
-  - course: Bachelor’s in Computer Science
-    institution: Jeonbuk National University
-    year: 2009
+ courses:
+ - course: 수학교육학과 학사
+   institution: 전북 대학교
+   year: 2025
+ - course: 컴퓨터공학과 학사
+   institution: 전북 대학교
+   year: 2025
 
-# Social/Academic Networking
-# Available icons: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For email links, use "fas" icon pack, "envelope" icon, and format "mailto:your-email@example.com".
+# 소셜/학술 네트워킹
+# 사용 가능한 아이콘: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   이메일 링크는 "fas" 아이콘 팩, "envelope" 아이콘, "mailto:your-email@example.com" 형식의 링크를 사용하세요.
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For direct email link use "mailto:test@example.org".
+    link: 'about/#contact' # 직접 이메일 링크는 "mailto:test@example.org" 사용.
   - icon: github
     icon_pack: fab
     link: https://github.com/LemonLucy
   - icon: whatsapp
     icon_pack: fab
     link: wa.link/bas7d3
-  - icon: instagram
-    icon_pack: fab
-    link: https://www.instagram.com/eungyo0965/
-  - icon: youtube
-    icon_pack: fab
-    link: https://youtube.com/@kimeungyo9861?si=KeF5kTbgP-IoVTqU
-  - icon: linkedin
-    icon_pack: fab
-    link: www.linkedin.com/in/eungyo-kim-b12b26327
-  - icon: discord
-    icon_pack: fab
-    link: https://discord.com/
+
 design:
   background:
     image:
@@ -70,14 +59,23 @@ design:
   text_color_light: true
   spacing:
     padding: ['20px', '0', '20px', '0']
+        
+        
+        # Github 링크 사용하려면 아래를 해제하세요
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/gcushen
 
-# To link a resume/CV PDF in the About widget, copy the resume/CV to `static/files/cv.pdf` and uncomment below.
+# About 위젯에서 이력서/CV PDF 링크.
+# 사용하려면, 이력서/CV를 `static/files/cv.pdf`에 복사하고 아래 줄을 해제하세요.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
 
-# To use Gravatar, enter an email here (from config).
+# Gravatar를 사용하려면 이메일을 입력하세요 (Config에서 Gravatar 활성화 시)
+#email: ""
 ---
-I am a university student in Korea, majoring in mathematics education and computer science. I have a strong interest in mobile app development, cloud computing, and machine learning. Currently, I am working on a project involving remote control robots for smart farming and learning React Native.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+저는 한국에서 수학 교육과 컴퓨터 공학을 전공하고 있는 대학생입니다. 저는 모바일 앱 개발, 클라우드 컴퓨팅, 그리고 머신 러닝에 관심이 있습니다. 현재 스마트 팜에서 사용되는 로봇 원격 제어 프로젝트를 진행 중이며, 현재 리액트 네이티브와 뷰를 배우고 있습니다.
+
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}이력서 PDF 다운로드{{< /staticref >}}

@@ -24,19 +24,19 @@ cascade:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 languages:
-  en:
-    languageCode: en-us
   ko:
     languageCode: ko-kr
-    title: "은교 사이트"
+  en:
+    languageCode: en-us
+    title: "Eungyo Site"
     params:
-      description: "제 사이트입니다."
+      description: "My site"
 
 ############################
 ## ADVANCED

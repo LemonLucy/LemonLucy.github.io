@@ -1,15 +1,14 @@
 ---
-title: smartfarm application development
+title: 스마트팜 앱 개발
 summary: 
 
-  Remote Control App using Flutter
-  UI/UX Provides a user interface for controlling the robot and monitoring real-time status
-  Real-time Data Communication The app receives status updates and analysis results from the robot
-  Control Features Allows users to manually move the robot and issue pesticide spraying commands
+  원격 조종 앱
+  UI/UX 사용자가 로봇을 제어하고 실시간으로 상태를 모니터링할 수 있는 사용자 인터페이스를 제공
+  실시간 데이터 통신 로봇의 상태 정보와 분석 결과를 받아 사용자가 확인
+  제어 기능 사용자가 로봇을 수동으로 이동시키거나 농약 살포 명령을 내릴 수 있는 기능을 포함
 
 tags:
   - SF
 date: 2024-09-01
 external_link: http://github.com
-view: "gorgeous_card" 
 ---

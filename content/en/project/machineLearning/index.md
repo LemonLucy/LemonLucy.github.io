@@ -1,8 +1,8 @@
 ---
-title: 팩맨 게임
+title: Pacman Game
 summary: Write about your project here...
 tags:
-  - 머신러닝
+  - ML
 date: 2022-01-01
 external_link: http://github.com
 ---

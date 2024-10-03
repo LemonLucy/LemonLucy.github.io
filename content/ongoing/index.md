@@ -1,6 +1,12 @@
 ---
 type: widget_page
 
-banner:
-  image: 'images/study.jpg'
+design:
+    background:
+    image:
+        filename: working.gif
+        filters:
+        brightness: 0.8
+    text_color_light: true
+
 ---

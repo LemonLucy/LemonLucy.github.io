@@ -1,9 +1,10 @@
 ---
-title: (2023 Fall Semester) Exchange Student at the University of Duisburg-Essen, Germany
-date: 2023-09-01
+title: (23년 2학기) 독일 뒤스부르크-에센 대학교 교환학생
+date: 2024-03-08
 ---
 
-Selected as an exchange student at the University of Duisburg-Essen, Germany
+독일 뒤스부르크-에센 대학교 교환학생 선발
 
-<!--more-->
-I went to Germany as an exchange student to explore European and Western cultures further. At the German university, I took two computer science courses, which allowed me to communicate with my classmates and gain insights into the European IT industry. I also backpacked through 15 countries alone, experiencing various cultures. One memorable experience was walking the Camino de Santiago in Spain, where I felt a warm atmosphere of mutual support and encouragement. This journey made me reflect on my life’s values and goals, and I realized that I wanted to positively impact the world, just as others had helped me along the way. 
+<!-- more -->
+
+저는 유럽이나 영미권 문화를 더 알아보고자 독일로 교환학생을 가게 되었습니다.독일 대학에서는 컴퓨터 공학과 과목을 2개 수강했는데, 이를 통해 학과 동료들과의 소통도 하며 유럽의 IT 업계에 대한 정보를 들을 수 있었습니다. 또한, 혼자 15개국을 배낭 여행하며 다양한 문화를 경험했습니다. 특히, 스페인 순례길을 걸으며 서로 돕고 지지하는 따뜻한 분위기를 느꼈는데, 사람들에게 많은 도움을 받으며 저도 세상에게 선한 영향력을 미치고 싶다는 생각이 들었고, 삶의 가치와 목표를 다시 한번 생각해보는 계기가 되었습니다.

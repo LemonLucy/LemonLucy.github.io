@@ -1,22 +1,21 @@
 ---
-# An instance of the About widget.
-# Documentation: https://docs.hugoblox.com/page-builder/
+# 경험 위젯의 인스턴스입니다.
+# 문서: https://docs.hugoblox.com/page-builder/
 widget: experience
 
-# Activate this widget? true/false
+# 이 위젯을 활성화하시겠습니까? true/false
 active: true
 
-# This file represents a page section.
+# 이 파일은 페이지 섹션을 나타냅니다.
 headless: true
 
-# Order that this section appears on the page.
+# 이 섹션이 페이지에 나타나는 순서입니다.
 weight: 10
 
-title: Previous Work
+title: 경력
 
-# Choose the user profile to display
-# This should be the username (folder name) of a profile in your `content/authors/` folder.
-# See https://docs.hugoblox.com/get-started/#introduce-yourself
+# 표시할 사용자 프로필 선택
+# 이 값은 `content/authors/` 폴더의 프로필 폴더 이름이어야 합니다.
+# 문서 참조: https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
-
 ---
