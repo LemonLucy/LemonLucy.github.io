@@ -1,7 +1,8 @@
 ---
 title: Eungyo Kim
 
-summary: 👩‍💻 Welcome to my profile! I'm currently a college student from South Korea, hoping to be a frontend engineer anywhere in the world 🌍. Thanks for visiting and I'd love to connect!
+summary: |
+👩‍💻 Welcome to my profile! I'm currently a college student from South Korea, hoping to be a frontend engineer anywhere in the world 🌍. Thanks for visiting and I'd love to connect!
 
 ⚡️ A Few Quick Facts  
 🧐 Learning about AWS cloud service, web service.  
