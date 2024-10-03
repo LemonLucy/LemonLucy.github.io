@@ -28,7 +28,7 @@ sections:
       order: desc
       filters:
         folders:
-          - project
+          - bio
     design:
       view: gorgeous_card
       columns: '2'
