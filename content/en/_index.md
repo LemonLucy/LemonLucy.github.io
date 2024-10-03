@@ -18,6 +18,20 @@ sections:
         spacing:
           padding: ['100px', '0', '100px', '0']
 
+  - block: collection
+    content:
+      title: Summary
+      subtitle:
+      text:
+      count: 1
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - authors
+    design:
+      view: 
+      columns: '2'
 
   - block: collection
     content:

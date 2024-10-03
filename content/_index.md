@@ -16,14 +16,6 @@ sections:
         image:
           filename: bg.jpg
         
-  - block: authors
-      content:
-        title: "Meet Our Authors"
-        text: "Here are the amazing authors contributing to our work."
-      design:
-        background:
-          color: "#f9f9f9"
-
   - block: features
     content:
       title: <span style="font-size:75%; font-weight:bold; ">관심 분야</span>
