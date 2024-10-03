@@ -45,7 +45,7 @@ sections:
         folders:
           - project
     design:
-      view: community/card
+      view: ccard
       columns: '3'
       flip_alt_rows: true
       
@@ -80,7 +80,7 @@ sections:
 
   - block: collection
     content:
-      title: 나는 공부 중 ...
+      title: 공부 중 ...
       subtitle:
       text:
       count: 3
