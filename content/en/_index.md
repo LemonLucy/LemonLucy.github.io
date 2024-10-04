@@ -31,7 +31,7 @@ sections:
         folders:
           - bio
     design:
-      view: gorgeous_card
+      view: custom_compact
       columns: '2'
 
   - block: collection
@@ -46,7 +46,7 @@ sections:
         folders:
           - project
     design:
-      view: card
+      view: community/card
       columns: '3'
       flip_alt_rows: true
     
