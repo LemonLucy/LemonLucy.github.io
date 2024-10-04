@@ -9,7 +9,7 @@ sections:
   - block: features
     content:
       title: <span style="font-size:150%; font-weight:bold; "> Eungyo World  </span>
-      text: <br><br>
+      text: <br>
         {{% cta cta_link="./experience/" cta_text="연구 분야 보기 ↑" %}}
     design:
       background:
@@ -30,7 +30,7 @@ sections:
         folders:
           - bio
     design:
-      view: community/custom_compact
+      view: custom_compact
       columns: '2'
 
   - block: collection
