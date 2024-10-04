@@ -45,9 +45,9 @@ en:
       url: /post/
       weight: 420
 
-    # - name: RoadMap
-    #   url: roadMap
-    #   weight: 500    
+    - name: RoadMap
+      url: roadMap
+      weight: 500    
 
     - name: Contact
       url: /contact/
