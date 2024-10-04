@@ -1,5 +1,6 @@
 ---
-widget: custom_compact
+widget: roadmap
+view: custom_compact
 
 # This file represents a page section.
 headless: true
