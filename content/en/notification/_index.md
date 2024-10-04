@@ -8,4 +8,5 @@ view: community/custom_card
 banner:
   caption: ''
   image: 'notification.jpg'
+featuredImage: 'notification.jpg'
 ---
