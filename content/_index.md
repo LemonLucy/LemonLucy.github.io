@@ -45,7 +45,7 @@ sections:
         folders:
           - project
     design:
-      view: ccard
+      view: community/card
       columns: '3'
       flip_alt_rows: true
       
