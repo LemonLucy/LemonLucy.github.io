@@ -1,6 +1,9 @@
 ---
 widget: roadmap
 
+view: community/custom_compact
+
+
 # This file represents a page section.
 headless: true
 
