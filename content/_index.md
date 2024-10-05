@@ -14,7 +14,7 @@ sections:
     design:
       background:
         image:
-          filename: bg.jpg
+          filename: intro.jpg
         spacing:
           padding: ['100px', '0', '100px', '0']
 

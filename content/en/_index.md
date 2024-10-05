@@ -9,7 +9,7 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:150%; font-weight:bold; ">☕🥨🎨☕🥨🎨Eungyo World☕🥨🎨☕🥨🎨</span>
+      title: <span style="font-size:150%; font-weight:bold; ">Eungyo World</span>
       text: <br>
         {{% cta cta_link="./experience/" cta_text="See Research Field ↑" %}}
     design:
