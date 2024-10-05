@@ -1,6 +1,6 @@
 ---
 # 홈페이지 제목을 비워두면 사이트 제목을 사용합니다.
-title: LemonLucy
+title: LemonLucy☕🥨🎨
 date: 2024-03-25
 type: landing
 
@@ -8,7 +8,7 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:150%; font-weight:bold; "> Eungyo World  </span>
+      title: <span style="font-size:150%; font-weight:bold; "> ☕🥨🎨Eungyo World☕🥨🎨  </span>
       text: <br>
         {{% cta cta_link="./experience/" cta_text="연구 분야 보기 ↑" %}}
     design:
