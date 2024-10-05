@@ -20,7 +20,7 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="display: flex; align-items: center; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; background-color: #f9f9f9; border: none; padding: 20px;"
+<div class="card" style="display: flex; text-align: justify; align-items: center; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; background-color: #f9f9f9; border: none; padding: 20px;"
      onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.1)';"
      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(0, 0, 0, 0.05)';">
 
@@ -41,7 +41,7 @@
 
     <!-- 제목 -->
     <div class="section-subheading article-title mb-1 mt-3">
-      <h4 style="font-size: 1.4rem; font-weight: 600; color: #222;">
+      <h4 style="font-size: 1.4rem; text-align: justify; font-weight: 600; color: #222;">
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="color: #222; text-decoration: none; transition: color 0.3s ease;"
            onmouseover="this.style.color='#ff5722';"
            onmouseout="this.style.color='#222';">{{ $item.Title | markdownify | emojify }}</a>
