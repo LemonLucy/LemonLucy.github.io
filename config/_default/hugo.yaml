@@ -6,6 +6,8 @@
 title: LemonLucy # Website name
 baseURL: 'https://lemonlucy.github.io/' # Website URL
 
+params:
+  logo: "logo.png"
 ############################
 ## PAGE OPTIONS
 ############################
