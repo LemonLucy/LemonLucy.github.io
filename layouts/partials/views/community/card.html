@@ -1,43 +1,49 @@
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 20px;">
-    <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
-         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 12px 24px rgba(0, 0, 0, 0.2)';"
-         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';">
-      
-      <!-- $link 대신 .RelPermalink 사용 -->
-      {{ if .Params.image }}
-      <a href="{{ .RelPermalink }}" style="display: block; position: relative; overflow: hidden;">
-        <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; height: auto; object-fit: cover; transition: transform 0.5s ease;"
-             onmouseover="this.style.transform='scale(1.1)';"
-             onmouseout="this.style.transform='scale(1)';">
-        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); opacity: 0; transition: opacity 0.3s ease-in-out;"
-             onmouseover="this.style.opacity=0.5;"
-             onmouseout="this.style.opacity=0;"></div>
+  <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
+       onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 12px 24px rgba(0, 0, 0, 0.2)';"
+       onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';">
+
+      <!-- 이미지 처리 -->
+      {{ with .Params.image }}
+      <a href="{{ .RelPermalink }}" style="display: block; position: relative; overflow: hidden;" class="card-image hover-overlay">
+          <img src="{{ . }}" alt="{{ .Title }}" style="width: 100%; height: auto; object-fit: cover; transition: transform 0.5s ease;"
+               onmouseover="this.style.transform='scale(1.1)';"
+               onmouseout="this.style.transform='scale(1)';">
+          <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); opacity: 0; transition: opacity 0.3s ease-in-out;"
+               onmouseover="this.style.opacity=0.5;"
+               onmouseout="this.style.opacity=0;"></div>
       </a>
       {{ end }}
 
-      <div style="padding: 20px; background-color: rgb(237, 190, 246);">
-        <div class="section-subheading article-title mb-1 mt-3">
-          <h4 style="font-size: 1.5rem; font-weight: bold; color: #333;">
-            <a href="{{ .RelPermalink }}" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
-               onmouseover="this.style.color='#007bff';"
-               onmouseout="this.style.color='#333';">{{ .Title | markdownify | emojify }}</a>
-          </h4>
-        </div>
+      <!-- 카드 텍스트 -->
+      <div class="card-text" style="padding: 20px; background-color: rgb(237, 190, 246);">
+          <div class="section-subheading article-title mb-1 mt-3">
+              <h4 style="font-size: 1.5rem; font-weight: bold; color: #333;">
+                  <a href="{{ .RelPermalink }}" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
+                     onmouseover="this.style.color='#007bff';"
+                     onmouseout="this.style.color='#333';">{{ .Title | markdownify | emojify }}</a>
+              </h4>
+          </div>
 
-        {{ with .Summary }}
-        <div style="color: #666; margin-bottom: 20px;">
-          <p>{{ . }}</p>
-        </div>
-        {{ end }}
+          <!-- 요약 처리 -->
+          {{ $summary := "" }}
+          {{ if .Params.summary }}
+            {{ $summary = .Params.summary | markdownify | emojify }}
+          {{ else if .Params.abstract }}
+            {{ $summary = .Params.abstract | markdownify | emojify | truncate 135 }}
+          {{ else if .Summary }}
+            {{ $summary = .Summary }}
+          {{ end }}
+          <div style="color: #666; margin-bottom: 20px;">
+              <p>{{ $summary }}</p>
+          </div>
 
-        {{ if .Params.attachments }}
-        <div style="margin-top:
-        20px;">
-          <a href="{{ .RelPermalink }}" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;"
-             onmouseover="this.style.backgroundColor='#0056b3';"
-             onmouseout="this.style.backgroundColor='#007bff';">Read More</a>
-        </div>
-        {{ end }}
+          <!-- 버튼 -->
+          <div style="margin-top: 20px;">
+              <a href="{{ .RelPermalink }}" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;"
+                 onmouseover="this.style.backgroundColor='#0056b3';"
+                 onmouseout="this.style.backgroundColor='#007bff';">Read More</a>
+          </div>
       </div>
-    </div>
+  </div>
 </div>
