@@ -1,63 +1,37 @@
 ---
+# Portfolio 위젯을 사용하여 생성된 섹션입니다.
+# 이 섹션은 `content/project/`에서 콘텐츠를 표시합니다.
+# 자세한 내용은 https://docs.hugoblox.com/widget/portfolio/를 참조하세요.
 widget: roadmap
-view: custom_compact
 
-# This file represents a page section.
+# 이 파일은 페이지 섹션을 나타냅니다.
 headless: true
 
-# Order that this section appears on the page.
+# 이 섹션이 페이지에서 나타나는 순서입니다.
 weight: 30
 
-title: 'RoadMap'
-subtitle: 'My Plan'
-
-type: landing
+title: ''
+subtitle: ''
 
 content:
-  - title: "23세 - 대학교 졸업 준비 & 실력 쌓기"
-    summary: |
-      - **학위 마무리**: 컴퓨터 공학 전공 과목을 이수하고 졸업 프로젝트 준비.
-      - **프론트엔드 실력 향상**: HTML, CSS, JavaScript 및 최신 프론트엔드 프레임워크 학습.
-      - **포트폴리오 구축**: GitHub에 프로젝트 및 코드 저장, 개인 블로그 운영을 통해 기술적 기록 남기기.
-      - **인턴십**: 국내 기업에서 인턴십 경험을 쌓아 실무 환경 이해 및 네트워킹.
+  page_type: roadmap
 
-  - title: "24세 - 대학 졸업 및 첫 직장"
-    summary: |
-      - **대학교 졸업**: 학위 취득.
-      - **국내 기업 취업**: 프론트엔드 개발자로 국내 IT 기업에 입사.
-      - **실무 경험 쌓기**: 프로젝트 참여 및 회사에서 다양한 실무 경험을 쌓아 경력 형성.
-      - **호주 워킹홀리데이 준비**: 언어 능력 향상(영어), 워킹홀리데이 비자 신청 준비.
+  filter_default: 0
 
-  - title: "25세 - 호주 워킹홀리데이 & IT 관련 경험"
-    summary: |
-      - **호주 워킹홀리데이 출발**: 호주로 이동해 IT 관련 일자리 구하기.
-      - **프리랜서 또는 계약직**: 호주에서 프리랜서 또는 계약직으로 프론트엔드 개발 업무 수행.
-      - **다양한 경험 쌓기**: 다양한 IT 프로젝트에 참여해 글로벌 경험 쌓기.
-      - **영어 능력 향상**: 현지 생활을 통해 영어 실력을 더욱 향상시킴.
-
-  - title: "26-28세 - 호주/싱가포르에서 경력 쌓기"
-    summary: |
-      - **경력 확장**: 호주 또는 싱가포르에서 안정적인 IT 일자리를 찾아 정착 시도.
-      - **글로벌 네트워킹**: 국제적인 프로젝트에 참여하고, 다양한 기술적 트렌드 학습.
-      - **풀스택 개발 역량 강화**: 백엔드 기술도 학습하여 풀스택 개발자로 성장.
-
-  - title: "29-30세 - 독일 워킹홀리데이 또는 글로벌 커리어 확장"
-    summary: |
-      - **독일 워킹홀리데이**: 만약 호주/싱가포르에서 기회가 없을 경우, 독일로 이동하여 IT 관련 일을 모색.
-      - **유럽의 IT 환경 경험**: 독일 및 유럽 전역에서 IT 환경에 대한 폭넓은 경험 쌓기.
-      - **프론트엔드 개발자 경력 강화**: 독일에서 프론트엔드 개발자로 자리 잡기 위한 경력 확장.
-
-  - title: "31-35세 - 유럽 또는 글로벌 개발자로 정착"
-    summary: |
-      - **독일 또는 다른 국가에서 정착**: 독일에서 프론트엔드 개발자로서 안정적인 직장 확보.
-      - **글로벌 개발자로 성장**: 다양한 글로벌 프로젝트에 참여하며 기술과 경력을 더욱 확장.
-      - **전문성 강화**: 최신 기술 습득과 함께 커리어 성장을 위한 지속적인 학습.
-      - **장기 목표 설정**: 경력 10년 차를 맞이하며, 관리직 또는 테크 리드 역할에 도전.
+  filter_button:
+    - name: 모두
+      tag: '*'
+    - name: 23~25
+      tag: 23
+    - name: 25~28
+      tag: 25
+    - name: 28~
+      tag: 28
 
 design:
-  background:
-    color: '#090a0b'  # 배경 색상
-    text_color_light: false
-    image: "roadmap.jpg"
-  css_class: fullscreen
+  columns: '1'
+  view: masonry
+  flip_alt_rows: true
+  background: roadmap.jpg
+  spacing: {padding: [0, 0, 0, 0]}
 ---
