@@ -45,7 +45,7 @@ sections:
         folders:
           - project
     design:
-      view: community/gorgeous_card
+      view: community/card
       columns: '3'
       flip_alt_rows: true
       
