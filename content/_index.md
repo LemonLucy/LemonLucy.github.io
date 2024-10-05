@@ -8,7 +8,7 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:150%; font-weight:bold; "> ☕🥨🎨Eungyo☕🥨🎨  </span>
+      title: <span style="font-size:150%; font-weight:bold; "> ☕🎨Eungyo🥨☕  </span>
       text: <br>
         {{% cta cta_link="./experience/" cta_text="연구 분야 보기 ↑" %}}
     design:

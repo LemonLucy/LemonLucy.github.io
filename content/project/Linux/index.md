@@ -1,9 +1,8 @@
 ---
-title: Real time Locker
-summary: Write about your project here...
+title: 실시간 사물함 관리
+summary: 이 프로젝트는 프로세스와 페이지 테이블 관리에 중점을 두며, 페이지 폴트 발생 시 이를 처리하고 물리 메모리에 페이지를 매핑하는 방법을 설명합니다. 주요 기능으로는 프로세스별 페이지 테이블 로드, 페이지 테이블 출력, 페이지 폴트 핸들러 실행 및 각 프로세스의 페이지 참조를 시뮬레이션하는 작업을 포함합니다. 이를 통해 효율적인 메모리 관리를 구현하고 페이지 테이블의 유효성 검사를 수행하는 구조를 제공합니다.
 tags:
   - Linux
 date: 2022-01-01
-external_link: http://github.com
+external_link: https://github.com/LemonLucy/RealTimeLocker
 ---
-dfaf
