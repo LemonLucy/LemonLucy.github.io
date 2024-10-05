@@ -1,5 +1,5 @@
 ---
-title: Ages 29-30 - Working Holiday in Germany or Expanding Global Career  
+title: <div style="text-align: justify;">Ages 29-30 - Working Holiday in Germany or Expanding Global Career  
 date: 2030
 ---
 
