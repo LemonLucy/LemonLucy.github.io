@@ -1,9 +1,10 @@
 ---
-title: (2022 Spring Semester) Exchange Student at the University of Putra , Malaysia
+title: (2022년 봄 학기) 말레이시아 푸트라 대학교 교환학생
 date: 2022-03-01
 ---
 
-Selected as an exchange student at the University of Putra, Malaysia
+말레이시아 푸트라 대학교 교환학생으로 선발됨
 
 <!--more-->
-I went to Germany as an exchange student to explore European and Western cultures further. At the German university, I took two computer science courses, which allowed me to communicate with my classmates and gain insights into the European IT industry. I also backpacked through 15 countries alone, experiencing various cultures. One memorable experience was walking the Camino de Santiago in Spain, where I felt a warm atmosphere of mutual support and encouragement. This journey made me reflect on my life’s values and goals, and I realized that I wanted to positively impact the world, just as others had helped me along the way. 
+
+말레이시아에서 교환학생으로 생활하는 동안 다양한 문화를 탐험하고 국제 학생들과 교류할 기회를 가졌습니다. 코로나19 팬데믹으로 인해 모든 수업이 온라인으로 진행되었지만, 저는 이 경험을 최대한 활용하고자 노력했습니다. 기숙사에 거주하는 다른 국제 교환학생들과 적극적으로 소통하며, 사회와 문화에 관한 다양한 주제로 이야기를 나누는 자리에 자주 참여했습니다. 온라인 수업의 유연성을 활용해 혼자 동남아를 배낭여행하며 수업을 들었고, 이를 통해 많은 새로운 경험을 쌓을 수 있었습니다. 또한 다양한 국적의 사람들과 대화할 수 있는 게스트하우스에 머물면서 매일 5개 이상의 국적을 가진 사람들과 영어로 대화하며 영어 회화 실력과 커뮤니케이션 능력을 향상시키기 위해 노력했습니다. 이 과정을 통해 제가 진정으로 원하는 것이 무엇인지 다시 생각해보게 되었고, 그 결과 컴퓨터공학과를 복수 전공하기로 결심하게 되었습니다.
