@@ -14,7 +14,7 @@ title: ''
 subtitle: ''
 
 content:
-  page_type: roadmap
+  page_type: plan
 
   filter_default: 0
 
