@@ -13,7 +13,7 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="display: flex; align-items: center; border-radius: 15px; overflow: hidden; border: 1px solid rgba(0, 0, 0, 0.1); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out; background-color: #ffffff; padding: 25px;"
+<div class="card" style="display: flex; text-align: justify; align-items: center; border-radius: 15px; overflow: hidden; border: 1px solid rgba(0, 0, 0, 0.1); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out; background-color: #ffffff; padding: 25px;"
      onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 24px rgba(0, 0, 0, 0.2)'; this.style.backgroundColor='#f5f5f5';"
      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.1)'; this.style.backgroundColor='#ffffff';">
 
@@ -35,7 +35,7 @@
     <!-- 제목 -->
     <div class="section-subheading article-title mb-1 mt-3">
       <h4 style="font-size: 1.5rem; font-weight: 700; color: #333;">
-        <span style="color: #333; text-decoration: none; transition: color 0.3s ease;"
+        <span style="color: #333; text-align: justify; text-decoration: none; transition: color 0.3s ease;"
            onmouseover="this.style.color='#e91e63';"
            onmouseout="this.style.color='#333';">{{ $item.Title | markdownify | emojify }}</span>
       </h4>
@@ -50,7 +50,7 @@
     {{ end }}
 
     {{ with $summary }}
-    <div class="article-style" style="color: #555; line-height: 1.8;">
+    <div class="article-style" style="color: #555; text-align: justify; line-height: 1.8;">
       <p>{{ . }}</p>
     </div>
     {{ end }}
